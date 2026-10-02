@@ -22,6 +22,9 @@ import {
     scheduleFor,
 } from './selectors';
 import { TIMETABLE_DAYS, TIMETABLE_ENTRIES, TIMETABLE_SLOTS } from './timetableData';
+import { ISIL_TIMETABLE_ENTRIES } from './isilTimetableData';
+
+const ALL_TIMETABLE_ENTRIES = [...TIMETABLE_ENTRIES, ...ISIL_TIMETABLE_ENTRIES];
 
 const COLORS = {
     ink: '#1f2b35',
@@ -123,28 +126,31 @@ function FilterGroup({ title, options, value, onChoose }) {
     return <View style={styles.filterGroup}><Text style={styles.filterTitle}>{title}</Text><ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.filterScroll}>{options.map((option) => <Pressable key={option.key} onPress={() => onChoose(option.key)} style={[styles.filterPill, value === option.key && styles.filterPillActive]}><Text style={[styles.filterPillText, value === option.key && styles.filterPillTextActive]}>{option.label}</Text></Pressable>)}</ScrollView></View>;
 }
 
-function Explorer({ entries, visible, onClose }) {
+function Explorer({ entries, section, visible, onClose }) {
     const [filters, setFilters] = useState({});
-    const options = useMemo(() => availableOptions(entries, filters), [entries, filters]);
-    const results = useMemo(() => filterEntries(entries, filters), [entries, filters]);
+    const scopedFilters = { ...filters, section };
+    useEffect(() => setFilters({}), [section]);
+    const options = useMemo(() => availableOptions(entries, scopedFilters), [entries, section, filters]);
+    const results = useMemo(() => filterEntries(entries, scopedFilters), [entries, section, filters]);
     const choose = (key, value) => setFilters((current) => ({ ...current, [key]: current[key] === value ? undefined : value }));
     return <SheetShell visible={visible} onClose={onClose} eyebrow="GLOBAL VIEW" title="Explore timetable"><ScrollView showsVerticalScrollIndicator={false} contentContainerStyle={styles.explorerContent}><FilterGroup title="Teacher" options={options.teachers} value={filters.teacher} onChoose={(value) => choose('teacher', value)} /><FilterGroup title="Subject" options={options.subjects} value={filters.subject} onChoose={(value) => choose('subject', value)} /><FilterGroup title="Session type" options={options.types} value={filters.type} onChoose={(value) => choose('type', value)} /><View style={styles.resultsHeader}><Text style={styles.sectionLabel}>RESULTS</Text><Text style={styles.resultCount}>{results.length} sessions</Text></View>{results.map((entry) => <View key={entry.id} style={styles.resultRow}><View style={styles.resultTime}><Text style={styles.resultDay}>{DAYS[entry.day].slice(0, 3).toUpperCase()}</Text><Text style={styles.resultTimeText}>{formatTime(entry.startMin)}</Text></View><View style={styles.resultInfo}><Text style={styles.resultSubject}>{entry.subject}</Text><Text style={styles.resultMeta}>{entry.teacher || 'Instructor not assigned'} · {entry.room}</Text><Text style={styles.resultMeta}>{entry.typeRaw} · {entry.section} · {entry.group} · {formatTime(entry.endMin)}</Text></View></View>)}</ScrollView></SheetShell>;
 }
 
 function AppContent() {
-    const sections = deriveSections(TIMETABLE_ENTRIES);
-    const [section, setSection] = useState(sections[0]?.label || '');
-    const [group, setGroup] = useState(() => deriveGroups(TIMETABLE_ENTRIES, sections[0]?.label)[0]?.label || '');
+    const sections = deriveSections(ALL_TIMETABLE_ENTRIES);
+    const initialSection = TIMETABLE_ENTRIES[0]?.section || sections[0]?.label || '';
+    const [section, setSection] = useState(initialSection);
+    const [group, setGroup] = useState(() => deriveGroups(ALL_TIMETABLE_ENTRIES, initialSection)[0]?.label || '');
     const [menu, setMenu] = useState(null);
     const [explorerVisible, setExplorerVisible] = useState(false);
     const [selectedEntry, setSelectedEntry] = useState(null);
-    const groups = deriveGroups(TIMETABLE_ENTRIES, section);
-    const entries = scheduleFor(TIMETABLE_ENTRIES, section, group);
+    const groups = deriveGroups(ALL_TIMETABLE_ENTRIES, section);
+    const entries = scheduleFor(ALL_TIMETABLE_ENTRIES, section, group);
     useEffect(() => {
         setGroup((currentGroup) => groups.some((option) => option.label === currentGroup) ? currentGroup : groups[0]?.label || '');
     }, [section]);
-    const chooseSection = (value) => { setSection(value); setGroup(deriveGroups(TIMETABLE_ENTRIES, value)[0]?.label || ''); };
-    return <SafeAreaView style={styles.safe}><StatusBar barStyle="dark-content" backgroundColor={COLORS.paper} /><View style={styles.screen}><View style={styles.appHeader}><View><Text style={styles.eyebrow}>JADWLI · L3 COMPUTER SCIENCE</Text><Text style={styles.appTitle}>My timetable</Text></View><Text style={styles.term}>2026—27</Text></View><TopBar section={section} group={group} sections={sections} groups={groups} onSection={() => setMenu('section')} onGroup={() => setMenu('group')} onExplore={() => setExplorerVisible(true)} /><View style={styles.legend}><LegendDot color={COLORS.lecture} label="Cours" /><LegendDot color={COLORS.td} label="TD" /><LegendDot color={COLORS.tp} label="TP" /><LegendDot color={COLORS.online} label="Online" /></View><ScrollView showsVerticalScrollIndicator={false} contentContainerStyle={styles.mainScroll}><TimetableGrid entries={entries} onEntryPress={setSelectedEntry} /><Text style={styles.gridHint}>Tap a class to see full details · swipe horizontally to see the week</Text><SocialFooter /></ScrollView></View><EntryDetails entry={selectedEntry} visible={Boolean(selectedEntry)} onClose={() => setSelectedEntry(null)} /><Explorer entries={TIMETABLE_ENTRIES} visible={explorerVisible} onClose={() => setExplorerVisible(false)} />{menu === 'section' && <ChoiceMenu title="Choose section" options={sections} value={section} onChoose={chooseSection} onClose={() => setMenu(null)} />}{menu === 'group' && <ChoiceMenu title="Choose group" options={groups} value={group} onChoose={setGroup} onClose={() => setMenu(null)} />}</SafeAreaView>;
+    const chooseSection = (value) => { setSection(value); setGroup(deriveGroups(ALL_TIMETABLE_ENTRIES, value)[0]?.label || ''); };
+    return <SafeAreaView style={styles.safe}><StatusBar barStyle="dark-content" backgroundColor={COLORS.paper} /><View style={styles.screen}><View style={styles.appHeader}><View><Text style={styles.eyebrow}>JADWLI · L3 COMPUTER SCIENCE</Text><Text style={styles.appTitle}>My timetable</Text></View><Text style={styles.term}>2026—27</Text></View><TopBar section={section} group={group} sections={sections} groups={groups} onSection={() => setMenu('section')} onGroup={() => setMenu('group')} onExplore={() => setExplorerVisible(true)} /><View style={styles.legend}><LegendDot color={COLORS.lecture} label="Cours" /><LegendDot color={COLORS.td} label="TD" /><LegendDot color={COLORS.tp} label="TP" /><LegendDot color={COLORS.online} label="Online" /></View><ScrollView showsVerticalScrollIndicator={false} contentContainerStyle={styles.mainScroll}><TimetableGrid entries={entries} onEntryPress={setSelectedEntry} /><Text style={styles.gridHint}>Tap a class to see full details · swipe horizontally to see the week</Text><SocialFooter /></ScrollView></View><EntryDetails entry={selectedEntry} visible={Boolean(selectedEntry)} onClose={() => setSelectedEntry(null)} /><Explorer entries={ALL_TIMETABLE_ENTRIES} section={section} visible={explorerVisible} onClose={() => setExplorerVisible(false)} />{menu === 'section' && <ChoiceMenu title="Choose section" options={sections} value={section} onChoose={chooseSection} onClose={() => setMenu(null)} />}{menu === 'group' && <ChoiceMenu title="Choose group" options={groups} value={group} onChoose={setGroup} onClose={() => setMenu(null)} />}</SafeAreaView>;
 }
 
 function LegendDot({ color, label }) { return <View style={styles.legendItem}><View style={[styles.legendDot, { backgroundColor: color }]} /><Text style={styles.legendText}>{label}</Text></View>; }

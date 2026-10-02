@@ -37,16 +37,43 @@ export function scheduleFor(entries, section, group) {
 
 export const chronological = (a, b) => a.day - b.day || a.startMin - b.startMin;
 
-// filters = { teacher?: key, subject?: key, type?: key }. Every provided filter must match (AND).
-export function filterEntries(entries, { teacher, subject, type } = {}) {
-  return entries
+function lectureSessionKey(entry) {
+  return [
+    entry.section,
+    entry.subject,
+    entry.day,
+    entry.startMin,
+    entry.endMin,
+    entry.teacher,
+    entry.room,
+    entry.type,
+    entry.typeRaw,
+  ].map((value) => keyOf(value ?? '')).join('|');
+}
+
+function deduplicateSharedLectures(entries) {
+  const seenLectures = new Set();
+  return entries.filter((entry) => {
+    if (entry.type !== 'LECTURE') return true;
+    const key = lectureSessionKey(entry);
+    if (seenLectures.has(key)) return false;
+    seenLectures.add(key);
+    return true;
+  });
+}
+
+// filters = { section?: label, teacher?: key, subject?: key, type?: key }. Every provided filter must match (AND).
+export function filterEntries(entries, { section, teacher, subject, type } = {}) {
+  const filtered = entries
     .filter(
       (e) =>
+        (!section || keyOf(e.section ?? '') === keyOf(section)) &&
         (!teacher || (e.teacher && keyOf(e.teacher) === teacher)) &&
         (!subject || (e.subject && keyOf(e.subject) === subject)) &&
         (!type || (e.type && keyOf(e.type) === type))
     )
     .sort(chronological);
+  return deduplicateSharedLectures(filtered);
 }
 
 // Cascading options: choices are narrowed by the OTHER active filters, so the user
