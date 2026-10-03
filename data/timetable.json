@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "timetableVersion": "2026-10-01-v2",
+  "timetableVersion": "2026-10-01-v3",
   "days": [
     {
       "label": "Saturday",
@@ -58,7 +58,7 @@
       "startMin": 480,
       "endMin": 570,
       "subject": "Operating Systems 2",
-      "teacher": "foul fares",
+      "teacher": "Tilmatine Anis",
       "room": "LAB 5",
       "type": "TP",
       "typeRaw": "Lab (TP)",
@@ -621,7 +621,7 @@
       "startMin": 670,
       "endMin": 760,
       "subject": "Operating Systems 2",
-      "teacher": "foul fares",
+      "teacher": "Tilmatine Anis",
       "room": "ROOM 3",
       "type": "TD",
       "typeRaw": "Tutorial (TD)",
@@ -924,7 +924,7 @@
       "startMin": 860,
       "endMin": 950,
       "subject": "Operating Systems 2",
-      "teacher": "foul fares",
+      "teacher": "Tilmatine Anis",
       "room": "ROOM 3",
       "type": "TD",
       "typeRaw": "Tutorial (TD)",
@@ -1178,7 +1178,7 @@
       "startMin": 765,
       "endMin": 855,
       "subject": "Operating Systems 2",
-      "teacher": "foul fares",
+      "teacher": "Tilmatine Anis",
       "room": "ROOM 3",
       "type": "TD",
       "typeRaw": "Tutorial (TD)",
