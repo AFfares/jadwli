@@ -2,5 +2,5 @@ node_modules/
 .expo/
 .expo-export/
 dist/
-
-android/app/google-services.json
+android/build/
+android/.gradle/

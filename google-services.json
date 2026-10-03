@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "133702657829",
+    "project_id": "jadwli-univ",
+    "storage_bucket": "jadwli-univ.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:133702657829:android:a2ae3fe334e810390e1ccc",
+        "android_client_info": {
+          "package_name": "com.affares.jadwli"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVyYYFRnDPZWIPv4aLMgePHRVV4rbU75g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
