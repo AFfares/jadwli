@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "timetableVersion": "2026-10-01-v3",
+  "timetableVersion": "2026-10-08-v1",
   "days": [
     {
       "label": "Saturday",
@@ -66,18 +66,50 @@
       "warnings": []
     },
     {
-      "id": "G1-0-1-Probability and Statistics",
+      "id": "G1-0-1-Linear Programming",
       "section": "L3 - SI",
       "group": "G1",
       "day": 0,
       "startMin": 575,
       "endMin": 665,
-      "subject": "Probability and Statistics",
-      "teacher": "Temam Kamal",
-      "room": "ROOM 2",
+      "subject": "Linear Programming",
+      "teacher": "IKHLEF KHADIDJA",
+      "room": "ROOM 5",
       "type": "TD",
       "typeRaw": "Tutorial (TD)",
-      "raw": "Saturday 09:35-11:05\nProbability and Statistics\nTemam Kamal\nROOM 2\nTutorial (TD)",
+      "raw": "Saturday 09:35-11:05\nLinear Programming\nIKHLEF KHADIDJA\nROOM 5\nTutorial (TD)",
+      "warnings": []
+    },
+    {
+      "id": "G1-0-3-Compiler Design",
+      "section": "L3 - SI",
+      "group": "G1",
+      "day": 0,
+      "startMin": 765,
+      "endMin": 855,
+      "subject": "Compiler Design",
+      "teacher": "Zouai Serine Maria",
+      "room": "X",
+      "type": "TP",
+      "typeRaw": "Lab (TP)",
+      "raw": "Saturday 12:45-14:15\nCompiler Design\nZouai Serine Maria\nX\nLab (TP)",
+      "warnings": [
+        "room X may be a placeholder or source-provided room label"
+      ]
+    },
+    {
+      "id": "G1-0-4-Operating Systems 2",
+      "section": "L3 - SI",
+      "group": "G1",
+      "day": 0,
+      "startMin": 860,
+      "endMin": 950,
+      "subject": "Operating Systems 2",
+      "teacher": "RAZEM Ahmed Abdelkader",
+      "room": "ROOM COURS",
+      "type": "TD",
+      "typeRaw": "Tutorial (TD)",
+      "raw": "Saturday 14:20-15:50\nOperating Systems 2\nRAZEM Ahmed Abdelkader\nROOM COURS\nTutorial (TD)",
       "warnings": []
     },
     {
@@ -106,45 +138,26 @@
       "endMin": 760,
       "subject": "Probability and Statistics",
       "teacher": "Temam Kamal",
-      "room": "Geology",
+      "room": "Benbatouche",
       "type": "LECTURE",
       "typeRaw": "Lecture (in person)",
-      "raw": "Sunday 11:10-12:40\nProbability and Statistics\nTemam Kamal\nGeology\nLecture (in person)",
+      "raw": "Sunday 11:10-12:40\nProbability and Statistics\nTemam Kamal\nBenbatouche\nLecture (in person)",
       "warnings": []
     },
     {
-      "id": "G1-1-3-Operating Systems 2",
+      "id": "G1-1-4-Probability and Statistics",
       "section": "L3 - SI",
       "group": "G1",
       "day": 1,
-      "startMin": 765,
-      "endMin": 855,
-      "subject": "Operating Systems 2",
-      "teacher": null,
-      "room": "ROOM 6",
+      "startMin": 860,
+      "endMin": 950,
+      "subject": "Probability and Statistics",
+      "teacher": "Temam Kamal",
+      "room": "ROOM 3",
       "type": "TD",
       "typeRaw": "Tutorial (TD)",
-      "raw": "Sunday 12:45-14:15\nOperating Systems 2\nNot assigned\nROOM 6\nTutorial (TD)",
-      "warnings": [
-        "teacher not assigned in source timetable"
-      ]
-    },
-    {
-      "id": "G1-2-0-Compiler Design",
-      "section": "L3 - SI",
-      "group": "G1",
-      "day": 2,
-      "startMin": 480,
-      "endMin": 570,
-      "subject": "Compiler Design",
-      "teacher": null,
-      "room": "No room",
-      "type": "TP",
-      "typeRaw": "Lab (TP)",
-      "raw": "Monday 08:00-09:30\nCompiler Design\nNot assigned\nNo room\nLab (TP)",
-      "warnings": [
-        "teacher not assigned in source timetable"
-      ]
+      "raw": "Sunday 14:20-15:50\nProbability and Statistics\nTemam Kamal\nROOM 3\nTutorial (TD)",
+      "warnings": []
     },
     {
       "id": "G1-2-1-Software Engineering",
@@ -162,23 +175,6 @@
       "warnings": []
     },
     {
-      "id": "G1-3-1-Software Engineering",
-      "section": "L3 - SI",
-      "group": "G1",
-      "day": 3,
-      "startMin": 575,
-      "endMin": 665,
-      "subject": "Software Engineering",
-      "teacher": null,
-      "room": "No room",
-      "type": "TP",
-      "typeRaw": "Lab (TP)",
-      "raw": "Tuesday 09:35-11:05\nSoftware Engineering\nNot assigned\nNo room\nLab (TP)",
-      "warnings": [
-        "teacher not assigned in source timetable"
-      ]
-    },
-    {
       "id": "G1-3-2-Digital Economy and Strategic Intelligence",
       "section": "L3 - SI",
       "group": "G1",
@@ -186,14 +182,12 @@
       "startMin": 670,
       "endMin": 760,
       "subject": "Digital Economy and Strategic Intelligence",
-      "teacher": null,
+      "teacher": "Chibani Rabah",
       "room": "Online",
       "type": "LECTURE",
       "typeRaw": "Lecture (online)",
-      "raw": "Tuesday 11:10-12:40\nDigital Economy and Strategic Intelligence\nNot assigned\nOnline\nLecture (online)",
-      "warnings": [
-        "teacher not assigned in source timetable"
-      ]
+      "raw": "Tuesday 11:10-12:40\nDigital Economy and Strategic Intelligence\nChibani Rabah\nOnline\nLecture (online)",
+      "warnings": []
     },
     {
       "id": "G1-3-3-Human-Computer Interaction",
@@ -203,46 +197,42 @@
       "startMin": 765,
       "endMin": 855,
       "subject": "Human-Computer Interaction",
-      "teacher": null,
-      "room": "No room",
+      "teacher": "Benaddane Samira",
+      "room": "Online",
       "type": "TP",
       "typeRaw": "Lab (TP)",
-      "raw": "Tuesday 12:45-14:15\nHuman-Computer Interaction\nNot assigned\nNo room\nLab (TP)",
-      "warnings": [
-        "teacher not assigned in source timetable"
-      ]
+      "raw": "Tuesday 12:45-14:15\nHuman-Computer Interaction\nBenaddane Samira\nOnline\nLab (TP)",
+      "warnings": []
     },
     {
-      "id": "G1-4-0-Compiler Design",
+      "id": "G1-4-0-Human-Computer Interaction",
       "section": "L3 - SI",
       "group": "G1",
       "day": 4,
       "startMin": 480,
       "endMin": 570,
-      "subject": "Compiler Design",
-      "teacher": "Baghli Raouida",
+      "subject": "Human-Computer Interaction",
+      "teacher": "Izountar Yousra",
       "room": "Hygiene",
       "type": "LECTURE",
       "typeRaw": "Lecture (in person)",
-      "raw": "Wednesday 08:00-09:30\nCompiler Design\nBaghli Raouida\nHygiene\nLecture (in person)",
+      "raw": "Wednesday 08:00-09:30\nHuman-Computer Interaction\nIzountar Yousra\nHygiene\nLecture (in person)",
       "warnings": []
     },
     {
-      "id": "G1-4-1-Human-Computer Interaction",
+      "id": "G1-4-1-Compiler Design",
       "section": "L3 - SI",
       "group": "G1",
       "day": 4,
       "startMin": 575,
       "endMin": 665,
-      "subject": "Human-Computer Interaction",
-      "teacher": null,
-      "room": "Benbadis",
+      "subject": "Compiler Design",
+      "teacher": "Baghli Raouida",
+      "room": "ROOM COURS",
       "type": "LECTURE",
       "typeRaw": "Lecture (in person)",
-      "raw": "Wednesday 09:35-11:05\nHuman-Computer Interaction\nNot assigned\nBenbadis\nLecture (in person)",
-      "warnings": [
-        "teacher not assigned in source timetable"
-      ]
+      "raw": "Wednesday 09:35-11:05\nCompiler Design\nBaghli Raouida\nROOM COURS\nLecture (in person)",
+      "warnings": []
     },
     {
       "id": "G1-4-3-Compiler Design",
@@ -267,28 +257,11 @@
       "startMin": 860,
       "endMin": 950,
       "subject": "Human-Computer Interaction",
-      "teacher": null,
+      "teacher": "Charef Aya",
       "room": "ROOM 5",
       "type": "TD",
       "typeRaw": "Tutorial (TD)",
-      "raw": "Wednesday 14:20-15:50\nHuman-Computer Interaction\nNot assigned\nROOM 5\nTutorial (TD)",
-      "warnings": [
-        "teacher not assigned in source timetable"
-      ]
-    },
-    {
-      "id": "G1-5-0-Linear Programming",
-      "section": "L3 - SI",
-      "group": "G1",
-      "day": 5,
-      "startMin": 480,
-      "endMin": 570,
-      "subject": "Linear Programming",
-      "teacher": "Ait abdesslam Maya",
-      "room": "Benbadis",
-      "type": "LECTURE",
-      "typeRaw": "Lecture (in person)",
-      "raw": "Thursday 08:00-09:30\nLinear Programming\nAit abdesslam Maya\nBenbadis\nLecture (in person)",
+      "raw": "Wednesday 14:20-15:50\nHuman-Computer Interaction\nCharef Aya\nROOM 5\nTutorial (TD)",
       "warnings": []
     },
     {
@@ -314,29 +287,46 @@
       "startMin": 670,
       "endMin": 760,
       "subject": "Linear Programming",
-      "teacher": null,
-      "room": "ROOM 5",
-      "type": "TD",
-      "typeRaw": "Tutorial (TD)",
-      "raw": "Thursday 11:10-12:40\nLinear Programming\nNot assigned\nROOM 5\nTutorial (TD)",
-      "warnings": [
-        "teacher not assigned in source timetable"
-      ]
+      "teacher": "Ait abdesslam Maya",
+      "room": "Benbadis",
+      "type": "LECTURE",
+      "typeRaw": "Lecture (in person)",
+      "raw": "Thursday 11:10-12:40\nLinear Programming\nAit abdesslam Maya\nBenbadis\nLecture (in person)",
+      "warnings": []
     },
     {
-      "id": "G2-0-0-Probability and Statistics",
+      "id": "G2-0-0-Operating Systems 2",
       "section": "L3 - SI",
       "group": "G2",
       "day": 0,
       "startMin": 480,
       "endMin": 570,
-      "subject": "Probability and Statistics",
-      "teacher": "Temam Kamal",
-      "room": "ROOM 6M",
+      "subject": "Operating Systems 2",
+      "teacher": "RAZEM Ahmed Abdelkader",
+      "room": "X",
       "type": "TD",
       "typeRaw": "Tutorial (TD)",
-      "raw": "Saturday 08:00-09:30\nProbability and Statistics\nTemam Kamal\nROOM 6M\nTutorial (TD)",
-      "warnings": []
+      "raw": "Saturday 08:00-09:30\nOperating Systems 2\nRAZEM Ahmed Abdelkader\nX\nTutorial (TD)",
+      "warnings": [
+        "room X may be a placeholder or source-provided room label"
+      ]
+    },
+    {
+      "id": "G2-0-1-Compiler Design",
+      "section": "L3 - SI",
+      "group": "G2",
+      "day": 0,
+      "startMin": 575,
+      "endMin": 665,
+      "subject": "Compiler Design",
+      "teacher": "Zouai Serine Maria",
+      "room": "X",
+      "type": "TP",
+      "typeRaw": "Lab (TP)",
+      "raw": "Saturday 09:35-11:05\nCompiler Design\nZouai Serine Maria\nX\nLab (TP)",
+      "warnings": [
+        "room X may be a placeholder or source-provided room label"
+      ]
     },
     {
       "id": "G2-0-2-Operating Systems 2",
@@ -351,6 +341,21 @@
       "type": "TP",
       "typeRaw": "Lab (TP)",
       "raw": "Saturday 11:10-12:40\nOperating Systems 2\nMarouf Mohamed Rachid\nLAB 1\nLab (TP)",
+      "warnings": []
+    },
+    {
+      "id": "G2-0-3-Linear Programming",
+      "section": "L3 - SI",
+      "group": "G2",
+      "day": 0,
+      "startMin": 765,
+      "endMin": 855,
+      "subject": "Linear Programming",
+      "teacher": "IKHLEF KHADIDJA",
+      "room": "ROOM COURS",
+      "type": "TD",
+      "typeRaw": "Tutorial (TD)",
+      "raw": "Saturday 12:45-14:15\nLinear Programming\nIKHLEF KHADIDJA\nROOM COURS\nTutorial (TD)",
       "warnings": []
     },
     {
@@ -371,23 +376,6 @@
       ]
     },
     {
-      "id": "G2-1-1-Operating Systems 2",
-      "section": "L3 - SI",
-      "group": "G2",
-      "day": 1,
-      "startMin": 575,
-      "endMin": 665,
-      "subject": "Operating Systems 2",
-      "teacher": null,
-      "room": "ROOM 6",
-      "type": "TD",
-      "typeRaw": "Tutorial (TD)",
-      "raw": "Sunday 09:35-11:05\nOperating Systems 2\nNot assigned\nROOM 6\nTutorial (TD)",
-      "warnings": [
-        "teacher not assigned in source timetable"
-      ]
-    },
-    {
       "id": "G2-1-2-Probability and Statistics",
       "section": "L3 - SI",
       "group": "G2",
@@ -396,45 +384,26 @@
       "endMin": 760,
       "subject": "Probability and Statistics",
       "teacher": "Temam Kamal",
-      "room": "Geology",
+      "room": "Benbatouche",
       "type": "LECTURE",
       "typeRaw": "Lecture (in person)",
-      "raw": "Sunday 11:10-12:40\nProbability and Statistics\nTemam Kamal\nGeology\nLecture (in person)",
+      "raw": "Sunday 11:10-12:40\nProbability and Statistics\nTemam Kamal\nBenbatouche\nLecture (in person)",
       "warnings": []
     },
     {
-      "id": "G2-2-0-Linear Programming",
+      "id": "G2-1-3-Probability and Statistics",
       "section": "L3 - SI",
       "group": "G2",
-      "day": 2,
-      "startMin": 480,
-      "endMin": 570,
-      "subject": "Linear Programming",
-      "teacher": null,
-      "room": "ROOM 5M",
+      "day": 1,
+      "startMin": 765,
+      "endMin": 855,
+      "subject": "Probability and Statistics",
+      "teacher": "Temam Kamal",
+      "room": "ROOM 3",
       "type": "TD",
       "typeRaw": "Tutorial (TD)",
-      "raw": "Monday 08:00-09:30\nLinear Programming\nNot assigned\nROOM 5M\nTutorial (TD)",
-      "warnings": [
-        "teacher not assigned in source timetable"
-      ]
-    },
-    {
-      "id": "G2-2-1-Compiler Design",
-      "section": "L3 - SI",
-      "group": "G2",
-      "day": 2,
-      "startMin": 575,
-      "endMin": 665,
-      "subject": "Compiler Design",
-      "teacher": null,
-      "room": "No room",
-      "type": "TP",
-      "typeRaw": "Lab (TP)",
-      "raw": "Monday 09:35-11:05\nCompiler Design\nNot assigned\nNo room\nLab (TP)",
-      "warnings": [
-        "teacher not assigned in source timetable"
-      ]
+      "raw": "Sunday 12:45-14:15\nProbability and Statistics\nTemam Kamal\nROOM 3\nTutorial (TD)",
+      "warnings": []
     },
     {
       "id": "G2-2-3-Software Engineering",
@@ -445,28 +414,11 @@
       "endMin": 855,
       "subject": "Software Engineering",
       "teacher": "Djaghbellou Soumia",
-      "room": "ROOM 5M",
+      "room": "ROOM 2",
       "type": "TD",
       "typeRaw": "Tutorial (TD)",
-      "raw": "Monday 12:45-14:15\nSoftware Engineering\nDjaghbellou Soumia\nROOM 5M\nTutorial (TD)",
+      "raw": "Monday 12:45-14:15\nSoftware Engineering\nDjaghbellou Soumia\nROOM 2\nTutorial (TD)",
       "warnings": []
-    },
-    {
-      "id": "G2-3-1-Software Engineering",
-      "section": "L3 - SI",
-      "group": "G2",
-      "day": 3,
-      "startMin": 575,
-      "endMin": 665,
-      "subject": "Software Engineering",
-      "teacher": null,
-      "room": "No room",
-      "type": "TP",
-      "typeRaw": "Lab (TP)",
-      "raw": "Tuesday 09:35-11:05\nSoftware Engineering\nNot assigned\nNo room\nLab (TP)",
-      "warnings": [
-        "teacher not assigned in source timetable"
-      ]
     },
     {
       "id": "G2-3-2-Digital Economy and Strategic Intelligence",
@@ -476,14 +428,12 @@
       "startMin": 670,
       "endMin": 760,
       "subject": "Digital Economy and Strategic Intelligence",
-      "teacher": null,
+      "teacher": "Chibani Rabah",
       "room": "Online",
       "type": "LECTURE",
       "typeRaw": "Lecture (online)",
-      "raw": "Tuesday 11:10-12:40\nDigital Economy and Strategic Intelligence\nNot assigned\nOnline\nLecture (online)",
-      "warnings": [
-        "teacher not assigned in source timetable"
-      ]
+      "raw": "Tuesday 11:10-12:40\nDigital Economy and Strategic Intelligence\nChibani Rabah\nOnline\nLecture (online)",
+      "warnings": []
     },
     {
       "id": "G2-3-3-Human-Computer Interaction",
@@ -493,46 +443,42 @@
       "startMin": 765,
       "endMin": 855,
       "subject": "Human-Computer Interaction",
-      "teacher": null,
-      "room": "No room",
+      "teacher": "Benaddane Samira",
+      "room": "Online",
       "type": "TP",
       "typeRaw": "Lab (TP)",
-      "raw": "Tuesday 12:45-14:15\nHuman-Computer Interaction\nNot assigned\nNo room\nLab (TP)",
-      "warnings": [
-        "teacher not assigned in source timetable"
-      ]
+      "raw": "Tuesday 12:45-14:15\nHuman-Computer Interaction\nBenaddane Samira\nOnline\nLab (TP)",
+      "warnings": []
     },
     {
-      "id": "G2-4-0-Compiler Design",
+      "id": "G2-4-0-Human-Computer Interaction",
       "section": "L3 - SI",
       "group": "G2",
       "day": 4,
       "startMin": 480,
       "endMin": 570,
-      "subject": "Compiler Design",
-      "teacher": "Baghli Raouida",
+      "subject": "Human-Computer Interaction",
+      "teacher": "Izountar Yousra",
       "room": "Hygiene",
       "type": "LECTURE",
       "typeRaw": "Lecture (in person)",
-      "raw": "Wednesday 08:00-09:30\nCompiler Design\nBaghli Raouida\nHygiene\nLecture (in person)",
+      "raw": "Wednesday 08:00-09:30\nHuman-Computer Interaction\nIzountar Yousra\nHygiene\nLecture (in person)",
       "warnings": []
     },
     {
-      "id": "G2-4-1-Human-Computer Interaction",
+      "id": "G2-4-1-Compiler Design",
       "section": "L3 - SI",
       "group": "G2",
       "day": 4,
       "startMin": 575,
       "endMin": 665,
-      "subject": "Human-Computer Interaction",
-      "teacher": null,
-      "room": "Benbadis",
+      "subject": "Compiler Design",
+      "teacher": "Baghli Raouida",
+      "room": "ROOM COURS",
       "type": "LECTURE",
       "typeRaw": "Lecture (in person)",
-      "raw": "Wednesday 09:35-11:05\nHuman-Computer Interaction\nNot assigned\nBenbadis\nLecture (in person)",
-      "warnings": [
-        "teacher not assigned in source timetable"
-      ]
+      "raw": "Wednesday 09:35-11:05\nCompiler Design\nBaghli Raouida\nROOM COURS\nLecture (in person)",
+      "warnings": []
     },
     {
       "id": "G2-4-2-Compiler Design",
@@ -550,35 +496,18 @@
       "warnings": []
     },
     {
-      "id": "G2-4-4-Human-Computer Interaction",
+      "id": "G2-4-3-Human-Computer Interaction",
       "section": "L3 - SI",
       "group": "G2",
       "day": 4,
-      "startMin": 860,
-      "endMin": 950,
+      "startMin": 765,
+      "endMin": 855,
       "subject": "Human-Computer Interaction",
-      "teacher": null,
+      "teacher": "Charef Aya",
       "room": "ROOM 5",
       "type": "TD",
       "typeRaw": "Tutorial (TD)",
-      "raw": "Wednesday 14:20-15:50\nHuman-Computer Interaction\nNot assigned\nROOM 5\nTutorial (TD)",
-      "warnings": [
-        "teacher not assigned in source timetable"
-      ]
-    },
-    {
-      "id": "G2-5-0-Linear Programming",
-      "section": "L3 - SI",
-      "group": "G2",
-      "day": 5,
-      "startMin": 480,
-      "endMin": 570,
-      "subject": "Linear Programming",
-      "teacher": "Ait abdesslam Maya",
-      "room": "Benbadis",
-      "type": "LECTURE",
-      "typeRaw": "Lecture (in person)",
-      "raw": "Thursday 08:00-09:30\nLinear Programming\nAit abdesslam Maya\nBenbadis\nLecture (in person)",
+      "raw": "Wednesday 12:45-14:15\nHuman-Computer Interaction\nCharef Aya\nROOM 5\nTutorial (TD)",
       "warnings": []
     },
     {
@@ -597,6 +526,21 @@
       "warnings": []
     },
     {
+      "id": "G2-5-2-Linear Programming",
+      "section": "L3 - SI",
+      "group": "G2",
+      "day": 5,
+      "startMin": 670,
+      "endMin": 760,
+      "subject": "Linear Programming",
+      "teacher": "Ait abdesslam Maya",
+      "room": "Benbadis",
+      "type": "LECTURE",
+      "typeRaw": "Lecture (in person)",
+      "raw": "Thursday 11:10-12:40\nLinear Programming\nAit abdesslam Maya\nBenbadis\nLecture (in person)",
+      "warnings": []
+    },
+    {
       "id": "G3-0-0-Linear Programming",
       "section": "L3 - SI",
       "group": "G3",
@@ -604,14 +548,12 @@
       "startMin": 480,
       "endMin": 570,
       "subject": "Linear Programming",
-      "teacher": null,
+      "teacher": "IKHLEF KHADIDJA",
       "room": "ROOM 6",
       "type": "TD",
       "typeRaw": "Tutorial (TD)",
-      "raw": "Saturday 08:00-09:30\nLinear Programming\nNot assigned\nROOM 6\nTutorial (TD)",
-      "warnings": [
-        "teacher not assigned in source timetable"
-      ]
+      "raw": "Saturday 08:00-09:30\nLinear Programming\nIKHLEF KHADIDJA\nROOM 6\nTutorial (TD)",
+      "warnings": []
     },
     {
       "id": "G3-0-2-Operating Systems 2",
@@ -621,12 +563,14 @@
       "startMin": 670,
       "endMin": 760,
       "subject": "Operating Systems 2",
-      "teacher": "Tilmatine Anis",
-      "room": "ROOM 3",
+      "teacher": "RAZEM Ahmed Abdelkader",
+      "room": "X",
       "type": "TD",
       "typeRaw": "Tutorial (TD)",
-      "raw": "Saturday 11:10-12:40\nOperating Systems 2\nTilmatine Anis\nROOM 3\nTutorial (TD)",
-      "warnings": []
+      "raw": "Saturday 11:10-12:40\nOperating Systems 2\nRAZEM Ahmed Abdelkader\nX\nTutorial (TD)",
+      "warnings": [
+        "room X may be a placeholder or source-provided room label"
+      ]
     },
     {
       "id": "G3-0-3-Probability and Statistics",
@@ -676,6 +620,21 @@
       ]
     },
     {
+      "id": "G3-1-1-Human-Computer Interaction",
+      "section": "L3 - SI",
+      "group": "G3",
+      "day": 1,
+      "startMin": 575,
+      "endMin": 665,
+      "subject": "Human-Computer Interaction",
+      "teacher": "Charef Aya",
+      "room": "LAB 3",
+      "type": "TD",
+      "typeRaw": "Tutorial (TD)",
+      "raw": "Sunday 09:35-11:05\nHuman-Computer Interaction\nCharef Aya\nLAB 3\nTutorial (TD)",
+      "warnings": []
+    },
+    {
       "id": "G3-1-2-Probability and Statistics",
       "section": "L3 - SI",
       "group": "G3",
@@ -684,10 +643,10 @@
       "endMin": 760,
       "subject": "Probability and Statistics",
       "teacher": "Temam Kamal",
-      "room": "Geology",
+      "room": "Benbatouche",
       "type": "LECTURE",
       "typeRaw": "Lecture (in person)",
-      "raw": "Sunday 11:10-12:40\nProbability and Statistics\nTemam Kamal\nGeology\nLecture (in person)",
+      "raw": "Sunday 11:10-12:40\nProbability and Statistics\nTemam Kamal\nBenbatouche\nLecture (in person)",
       "warnings": []
     },
     {
@@ -698,46 +657,42 @@
       "startMin": 480,
       "endMin": 570,
       "subject": "Compiler Design",
-      "teacher": "Baghli Raouida",
-      "room": "ROOM 6M",
-      "type": "TD",
-      "typeRaw": "Tutorial (TD)",
-      "raw": "Monday 08:00-09:30\nCompiler Design\nBaghli Raouida\nROOM 6M\nTutorial (TD)",
+      "teacher": "Zouai Serine Maria",
+      "room": "LAB 3",
+      "type": "TP",
+      "typeRaw": "Lab (TP)",
+      "raw": "Monday 08:00-09:30\nCompiler Design\nZouai Serine Maria\nLAB 3\nLab (TP)",
       "warnings": []
     },
     {
-      "id": "G3-2-2-Compiler Design",
+      "id": "G3-2-2-Software Engineering",
       "section": "L3 - SI",
       "group": "G3",
       "day": 2,
       "startMin": 670,
       "endMin": 760,
-      "subject": "Compiler Design",
-      "teacher": null,
-      "room": "No room",
-      "type": "TP",
-      "typeRaw": "Lab (TP)",
-      "raw": "Monday 11:10-12:40\nCompiler Design\nNot assigned\nNo room\nLab (TP)",
-      "warnings": [
-        "teacher not assigned in source timetable"
-      ]
+      "subject": "Software Engineering",
+      "teacher": "Djaghbellou Soumia",
+      "room": "ROOM 1",
+      "type": "TD",
+      "typeRaw": "Tutorial (TD)",
+      "raw": "Monday 11:10-12:40\nSoftware Engineering\nDjaghbellou Soumia\nROOM 1\nTutorial (TD)",
+      "warnings": []
     },
     {
-      "id": "G3-3-1-Software Engineering",
+      "id": "G3-2-3-Compiler Design",
       "section": "L3 - SI",
       "group": "G3",
-      "day": 3,
-      "startMin": 575,
-      "endMin": 665,
-      "subject": "Software Engineering",
-      "teacher": null,
-      "room": "No room",
-      "type": "TP",
-      "typeRaw": "Lab (TP)",
-      "raw": "Tuesday 09:35-11:05\nSoftware Engineering\nNot assigned\nNo room\nLab (TP)",
-      "warnings": [
-        "teacher not assigned in source timetable"
-      ]
+      "day": 2,
+      "startMin": 765,
+      "endMin": 855,
+      "subject": "Compiler Design",
+      "teacher": "Baghli Raouida",
+      "room": "ROOM 1",
+      "type": "TD",
+      "typeRaw": "Tutorial (TD)",
+      "raw": "Monday 12:45-14:15\nCompiler Design\nBaghli Raouida\nROOM 1\nTutorial (TD)",
+      "warnings": []
     },
     {
       "id": "G3-3-2-Digital Economy and Strategic Intelligence",
@@ -747,14 +702,12 @@
       "startMin": 670,
       "endMin": 760,
       "subject": "Digital Economy and Strategic Intelligence",
-      "teacher": null,
+      "teacher": "Chibani Rabah",
       "room": "Online",
       "type": "LECTURE",
       "typeRaw": "Lecture (online)",
-      "raw": "Tuesday 11:10-12:40\nDigital Economy and Strategic Intelligence\nNot assigned\nOnline\nLecture (online)",
-      "warnings": [
-        "teacher not assigned in source timetable"
-      ]
+      "raw": "Tuesday 11:10-12:40\nDigital Economy and Strategic Intelligence\nChibani Rabah\nOnline\nLecture (online)",
+      "warnings": []
     },
     {
       "id": "G3-3-3-Human-Computer Interaction",
@@ -764,77 +717,41 @@
       "startMin": 765,
       "endMin": 855,
       "subject": "Human-Computer Interaction",
-      "teacher": null,
-      "room": "No room",
+      "teacher": "Benaddane Samira",
+      "room": "Online",
       "type": "TP",
       "typeRaw": "Lab (TP)",
-      "raw": "Tuesday 12:45-14:15\nHuman-Computer Interaction\nNot assigned\nNo room\nLab (TP)",
-      "warnings": [
-        "teacher not assigned in source timetable"
-      ]
+      "raw": "Tuesday 12:45-14:15\nHuman-Computer Interaction\nBenaddane Samira\nOnline\nLab (TP)",
+      "warnings": []
     },
     {
-      "id": "G3-4-0-Compiler Design",
+      "id": "G3-4-0-Human-Computer Interaction",
       "section": "L3 - SI",
       "group": "G3",
       "day": 4,
       "startMin": 480,
       "endMin": 570,
-      "subject": "Compiler Design",
-      "teacher": "Baghli Raouida",
+      "subject": "Human-Computer Interaction",
+      "teacher": "Izountar Yousra",
       "room": "Hygiene",
       "type": "LECTURE",
       "typeRaw": "Lecture (in person)",
-      "raw": "Wednesday 08:00-09:30\nCompiler Design\nBaghli Raouida\nHygiene\nLecture (in person)",
+      "raw": "Wednesday 08:00-09:30\nHuman-Computer Interaction\nIzountar Yousra\nHygiene\nLecture (in person)",
       "warnings": []
     },
     {
-      "id": "G3-4-1-Human-Computer Interaction",
+      "id": "G3-4-1-Compiler Design",
       "section": "L3 - SI",
       "group": "G3",
       "day": 4,
       "startMin": 575,
       "endMin": 665,
-      "subject": "Human-Computer Interaction",
-      "teacher": null,
-      "room": "Benbadis",
+      "subject": "Compiler Design",
+      "teacher": "Baghli Raouida",
+      "room": "ROOM COURS",
       "type": "LECTURE",
       "typeRaw": "Lecture (in person)",
-      "raw": "Wednesday 09:35-11:05\nHuman-Computer Interaction\nNot assigned\nBenbadis\nLecture (in person)",
-      "warnings": [
-        "teacher not assigned in source timetable"
-      ]
-    },
-    {
-      "id": "G3-4-2-Human-Computer Interaction",
-      "section": "L3 - SI",
-      "group": "G3",
-      "day": 4,
-      "startMin": 670,
-      "endMin": 760,
-      "subject": "Human-Computer Interaction",
-      "teacher": null,
-      "room": "ROOM 5",
-      "type": "TD",
-      "typeRaw": "Tutorial (TD)",
-      "raw": "Wednesday 11:10-12:40\nHuman-Computer Interaction\nNot assigned\nROOM 5\nTutorial (TD)",
-      "warnings": [
-        "teacher not assigned in source timetable"
-      ]
-    },
-    {
-      "id": "G3-5-0-Linear Programming",
-      "section": "L3 - SI",
-      "group": "G3",
-      "day": 5,
-      "startMin": 480,
-      "endMin": 570,
-      "subject": "Linear Programming",
-      "teacher": "Ait abdesslam Maya",
-      "room": "Benbadis",
-      "type": "LECTURE",
-      "typeRaw": "Lecture (in person)",
-      "raw": "Thursday 08:00-09:30\nLinear Programming\nAit abdesslam Maya\nBenbadis\nLecture (in person)",
+      "raw": "Wednesday 09:35-11:05\nCompiler Design\nBaghli Raouida\nROOM COURS\nLecture (in person)",
       "warnings": []
     },
     {
@@ -853,18 +770,18 @@
       "warnings": []
     },
     {
-      "id": "G3-5-2-Software Engineering",
+      "id": "G3-5-2-Linear Programming",
       "section": "L3 - SI",
       "group": "G3",
       "day": 5,
       "startMin": 670,
       "endMin": 760,
-      "subject": "Software Engineering",
-      "teacher": "Djaghbellou Soumia",
-      "room": "ROOM 1",
-      "type": "TD",
-      "typeRaw": "Tutorial (TD)",
-      "raw": "Thursday 11:10-12:40\nSoftware Engineering\nDjaghbellou Soumia\nROOM 1\nTutorial (TD)",
+      "subject": "Linear Programming",
+      "teacher": "Ait abdesslam Maya",
+      "room": "Benbadis",
+      "type": "LECTURE",
+      "typeRaw": "Lecture (in person)",
+      "raw": "Thursday 11:10-12:40\nLinear Programming\nAit abdesslam Maya\nBenbadis\nLecture (in person)",
       "warnings": []
     },
     {
@@ -883,23 +800,6 @@
       "warnings": []
     },
     {
-      "id": "G4-0-1-Linear Programming",
-      "section": "L3 - SI",
-      "group": "G4",
-      "day": 0,
-      "startMin": 575,
-      "endMin": 665,
-      "subject": "Linear Programming",
-      "teacher": null,
-      "room": "ROOM 5",
-      "type": "TD",
-      "typeRaw": "Tutorial (TD)",
-      "raw": "Saturday 09:35-11:05\nLinear Programming\nNot assigned\nROOM 5\nTutorial (TD)",
-      "warnings": [
-        "teacher not assigned in source timetable"
-      ]
-    },
-    {
       "id": "G4-0-2-Compiler Design",
       "section": "L3 - SI",
       "group": "G4",
@@ -907,13 +807,30 @@
       "startMin": 670,
       "endMin": 760,
       "subject": "Compiler Design",
-      "teacher": null,
-      "room": "No room",
+      "teacher": "Zouai Serine Maria",
+      "room": "X",
       "type": "TP",
       "typeRaw": "Lab (TP)",
-      "raw": "Saturday 11:10-12:40\nCompiler Design\nNot assigned\nNo room\nLab (TP)",
+      "raw": "Saturday 11:10-12:40\nCompiler Design\nZouai Serine Maria\nX\nLab (TP)",
       "warnings": [
-        "teacher not assigned in source timetable"
+        "room X may be a placeholder or source-provided room label"
+      ]
+    },
+    {
+      "id": "G4-0-3-Human-Computer Interaction",
+      "section": "L3 - SI",
+      "group": "G4",
+      "day": 0,
+      "startMin": 765,
+      "endMin": 855,
+      "subject": "Human-Computer Interaction",
+      "teacher": "Maallem Wissal",
+      "room": "Y",
+      "type": "TD",
+      "typeRaw": "Tutorial (TD)",
+      "raw": "Saturday 12:45-14:15\nHuman-Computer Interaction\nMaallem Wissal\nY\nTutorial (TD)",
+      "warnings": [
+        "room Y may be a placeholder or source-provided room label"
       ]
     },
     {
@@ -972,28 +889,11 @@
       "endMin": 760,
       "subject": "Probability and Statistics",
       "teacher": "Temam Kamal",
-      "room": "Geology",
+      "room": "Benbatouche",
       "type": "LECTURE",
       "typeRaw": "Lecture (in person)",
-      "raw": "Sunday 11:10-12:40\nProbability and Statistics\nTemam Kamal\nGeology\nLecture (in person)",
+      "raw": "Sunday 11:10-12:40\nProbability and Statistics\nTemam Kamal\nBenbatouche\nLecture (in person)",
       "warnings": []
-    },
-    {
-      "id": "G4-3-1-Software Engineering",
-      "section": "L3 - SI",
-      "group": "G4",
-      "day": 3,
-      "startMin": 575,
-      "endMin": 665,
-      "subject": "Software Engineering",
-      "teacher": null,
-      "room": "No room",
-      "type": "TP",
-      "typeRaw": "Lab (TP)",
-      "raw": "Tuesday 09:35-11:05\nSoftware Engineering\nNot assigned\nNo room\nLab (TP)",
-      "warnings": [
-        "teacher not assigned in source timetable"
-      ]
     },
     {
       "id": "G4-3-2-Digital Economy and Strategic Intelligence",
@@ -1003,14 +903,12 @@
       "startMin": 670,
       "endMin": 760,
       "subject": "Digital Economy and Strategic Intelligence",
-      "teacher": null,
+      "teacher": "Chibani Rabah",
       "room": "Online",
       "type": "LECTURE",
       "typeRaw": "Lecture (online)",
-      "raw": "Tuesday 11:10-12:40\nDigital Economy and Strategic Intelligence\nNot assigned\nOnline\nLecture (online)",
-      "warnings": [
-        "teacher not assigned in source timetable"
-      ]
+      "raw": "Tuesday 11:10-12:40\nDigital Economy and Strategic Intelligence\nChibani Rabah\nOnline\nLecture (online)",
+      "warnings": []
     },
     {
       "id": "G4-3-3-Human-Computer Interaction",
@@ -1020,60 +918,56 @@
       "startMin": 765,
       "endMin": 855,
       "subject": "Human-Computer Interaction",
-      "teacher": null,
-      "room": "No room",
+      "teacher": "Benaddane Samira",
+      "room": "Online",
       "type": "TP",
       "typeRaw": "Lab (TP)",
-      "raw": "Tuesday 12:45-14:15\nHuman-Computer Interaction\nNot assigned\nNo room\nLab (TP)",
-      "warnings": [
-        "teacher not assigned in source timetable"
-      ]
+      "raw": "Tuesday 12:45-14:15\nHuman-Computer Interaction\nBenaddane Samira\nOnline\nLab (TP)",
+      "warnings": []
     },
     {
-      "id": "G4-4-0-Compiler Design",
+      "id": "G4-4-0-Human-Computer Interaction",
       "section": "L3 - SI",
       "group": "G4",
       "day": 4,
       "startMin": 480,
       "endMin": 570,
-      "subject": "Compiler Design",
-      "teacher": "Baghli Raouida",
+      "subject": "Human-Computer Interaction",
+      "teacher": "Izountar Yousra",
       "room": "Hygiene",
       "type": "LECTURE",
       "typeRaw": "Lecture (in person)",
-      "raw": "Wednesday 08:00-09:30\nCompiler Design\nBaghli Raouida\nHygiene\nLecture (in person)",
+      "raw": "Wednesday 08:00-09:30\nHuman-Computer Interaction\nIzountar Yousra\nHygiene\nLecture (in person)",
       "warnings": []
     },
     {
-      "id": "G4-4-1-Human-Computer Interaction",
+      "id": "G4-4-1-Compiler Design",
       "section": "L3 - SI",
       "group": "G4",
       "day": 4,
       "startMin": 575,
       "endMin": 665,
-      "subject": "Human-Computer Interaction",
-      "teacher": null,
-      "room": "Benbadis",
+      "subject": "Compiler Design",
+      "teacher": "Baghli Raouida",
+      "room": "ROOM COURS",
       "type": "LECTURE",
       "typeRaw": "Lecture (in person)",
-      "raw": "Wednesday 09:35-11:05\nHuman-Computer Interaction\nNot assigned\nBenbadis\nLecture (in person)",
-      "warnings": [
-        "teacher not assigned in source timetable"
-      ]
+      "raw": "Wednesday 09:35-11:05\nCompiler Design\nBaghli Raouida\nROOM COURS\nLecture (in person)",
+      "warnings": []
     },
     {
-      "id": "G4-4-2-Human-Computer Interaction",
+      "id": "G4-4-2-Linear Programming",
       "section": "L3 - SI",
       "group": "G4",
       "day": 4,
       "startMin": 670,
       "endMin": 760,
-      "subject": "Human-Computer Interaction",
+      "subject": "Linear Programming",
       "teacher": null,
       "room": "ROOM 5",
       "type": "TD",
       "typeRaw": "Tutorial (TD)",
-      "raw": "Wednesday 11:10-12:40\nHuman-Computer Interaction\nNot assigned\nROOM 5\nTutorial (TD)",
+      "raw": "Wednesday 11:10-12:40\nLinear Programming\nNot assigned\nROOM 5\nTutorial (TD)",
       "warnings": [
         "teacher not assigned in source timetable"
       ]
@@ -1094,21 +988,6 @@
       "warnings": []
     },
     {
-      "id": "G4-5-0-Linear Programming",
-      "section": "L3 - SI",
-      "group": "G4",
-      "day": 5,
-      "startMin": 480,
-      "endMin": 570,
-      "subject": "Linear Programming",
-      "teacher": "Ait abdesslam Maya",
-      "room": "Benbadis",
-      "type": "LECTURE",
-      "typeRaw": "Lecture (in person)",
-      "raw": "Thursday 08:00-09:30\nLinear Programming\nAit abdesslam Maya\nBenbadis\nLecture (in person)",
-      "warnings": []
-    },
-    {
       "id": "G4-5-1-Software Engineering",
       "section": "L3 - SI",
       "group": "G4",
@@ -1121,6 +1000,21 @@
       "type": "LECTURE",
       "typeRaw": "Lecture (in person)",
       "raw": "Thursday 09:35-11:05\nSoftware Engineering\nDjaghbellou Soumia\nA\nLecture (in person)",
+      "warnings": []
+    },
+    {
+      "id": "G4-5-2-Linear Programming",
+      "section": "L3 - SI",
+      "group": "G4",
+      "day": 5,
+      "startMin": 670,
+      "endMin": 760,
+      "subject": "Linear Programming",
+      "teacher": "Ait abdesslam Maya",
+      "room": "Benbadis",
+      "type": "LECTURE",
+      "typeRaw": "Lecture (in person)",
+      "raw": "Thursday 11:10-12:40\nLinear Programming\nAit abdesslam Maya\nBenbadis\nLecture (in person)",
       "warnings": []
     },
     {
@@ -1139,20 +1033,21 @@
       "warnings": []
     },
     {
-      "id": "G5-0-0-Compiler Design",
+      "id": "G5-0-0-Linear Programming",
       "section": "L3 - SI",
       "group": "G5",
       "day": 0,
       "startMin": 480,
       "endMin": 570,
-      "subject": "Compiler Design",
+      "subject": "Linear Programming",
       "teacher": null,
-      "room": "No room",
-      "type": "TP",
-      "typeRaw": "Lab (TP)",
-      "raw": "Saturday 08:00-09:30\nCompiler Design\nNot assigned\nNo room\nLab (TP)",
+      "room": "X",
+      "type": "TD",
+      "typeRaw": "Tutorial (TD)",
+      "raw": "Saturday 08:00-09:30\nLinear Programming\nNot assigned\nX\nTutorial (TD)",
       "warnings": [
-        "teacher not assigned in source timetable"
+        "teacher not assigned in source timetable",
+        "room X may be a placeholder or source-provided room label"
       ]
     },
     {
@@ -1171,6 +1066,23 @@
       "warnings": []
     },
     {
+      "id": "G5-0-2-Human-Computer Interaction",
+      "section": "L3 - SI",
+      "group": "G5",
+      "day": 0,
+      "startMin": 670,
+      "endMin": 760,
+      "subject": "Human-Computer Interaction",
+      "teacher": "Maallem Wissal",
+      "room": "X",
+      "type": "TD",
+      "typeRaw": "Tutorial (TD)",
+      "raw": "Saturday 11:10-12:40\nHuman-Computer Interaction\nMaallem Wissal\nX\nTutorial (TD)",
+      "warnings": [
+        "room X may be a placeholder or source-provided room label"
+      ]
+    },
+    {
       "id": "G5-0-3-Operating Systems 2",
       "section": "L3 - SI",
       "group": "G5",
@@ -1179,11 +1091,13 @@
       "endMin": 855,
       "subject": "Operating Systems 2",
       "teacher": "Tilmatine Anis",
-      "room": "ROOM 3",
+      "room": "X",
       "type": "TD",
       "typeRaw": "Tutorial (TD)",
-      "raw": "Saturday 12:45-14:15\nOperating Systems 2\nTilmatine Anis\nROOM 3\nTutorial (TD)",
-      "warnings": []
+      "raw": "Saturday 12:45-14:15\nOperating Systems 2\nTilmatine Anis\nX\nTutorial (TD)",
+      "warnings": [
+        "room X may be a placeholder or source-provided room label"
+      ]
     },
     {
       "id": "G5-0-4-Probability and Statistics",
@@ -1226,10 +1140,10 @@
       "endMin": 760,
       "subject": "Probability and Statistics",
       "teacher": "Temam Kamal",
-      "room": "Geology",
+      "room": "Benbatouche",
       "type": "LECTURE",
       "typeRaw": "Lecture (in person)",
-      "raw": "Sunday 11:10-12:40\nProbability and Statistics\nTemam Kamal\nGeology\nLecture (in person)",
+      "raw": "Sunday 11:10-12:40\nProbability and Statistics\nTemam Kamal\nBenbatouche\nLecture (in person)",
       "warnings": []
     },
     {
@@ -1248,21 +1162,19 @@
       "warnings": []
     },
     {
-      "id": "G5-2-1-Linear Programming",
+      "id": "G5-2-1-Compiler Design",
       "section": "L3 - SI",
       "group": "G5",
       "day": 2,
       "startMin": 575,
       "endMin": 665,
-      "subject": "Linear Programming",
-      "teacher": null,
-      "room": "ROOM 1",
-      "type": "TD",
-      "typeRaw": "Tutorial (TD)",
-      "raw": "Monday 09:35-11:05\nLinear Programming\nNot assigned\nROOM 1\nTutorial (TD)",
-      "warnings": [
-        "teacher not assigned in source timetable"
-      ]
+      "subject": "Compiler Design",
+      "teacher": "Zouai Serine Maria",
+      "room": "LAB 1",
+      "type": "TP",
+      "typeRaw": "Lab (TP)",
+      "raw": "Monday 09:35-11:05\nCompiler Design\nZouai Serine Maria\nLAB 1\nLab (TP)",
+      "warnings": []
     },
     {
       "id": "G5-2-2-Compiler Design",
@@ -1273,28 +1185,11 @@
       "endMin": 760,
       "subject": "Compiler Design",
       "teacher": "Baghli Raouida",
-      "room": "ROOM 5M",
+      "room": "ROOM 6",
       "type": "TD",
       "typeRaw": "Tutorial (TD)",
-      "raw": "Monday 11:10-12:40\nCompiler Design\nBaghli Raouida\nROOM 5M\nTutorial (TD)",
+      "raw": "Monday 11:10-12:40\nCompiler Design\nBaghli Raouida\nROOM 6\nTutorial (TD)",
       "warnings": []
-    },
-    {
-      "id": "G5-3-1-Software Engineering",
-      "section": "L3 - SI",
-      "group": "G5",
-      "day": 3,
-      "startMin": 575,
-      "endMin": 665,
-      "subject": "Software Engineering",
-      "teacher": null,
-      "room": "No room",
-      "type": "TP",
-      "typeRaw": "Lab (TP)",
-      "raw": "Tuesday 09:35-11:05\nSoftware Engineering\nNot assigned\nNo room\nLab (TP)",
-      "warnings": [
-        "teacher not assigned in source timetable"
-      ]
     },
     {
       "id": "G5-3-2-Digital Economy and Strategic Intelligence",
@@ -1304,14 +1199,12 @@
       "startMin": 670,
       "endMin": 760,
       "subject": "Digital Economy and Strategic Intelligence",
-      "teacher": null,
+      "teacher": "Chibani Rabah",
       "room": "Online",
       "type": "LECTURE",
       "typeRaw": "Lecture (online)",
-      "raw": "Tuesday 11:10-12:40\nDigital Economy and Strategic Intelligence\nNot assigned\nOnline\nLecture (online)",
-      "warnings": [
-        "teacher not assigned in source timetable"
-      ]
+      "raw": "Tuesday 11:10-12:40\nDigital Economy and Strategic Intelligence\nChibani Rabah\nOnline\nLecture (online)",
+      "warnings": []
     },
     {
       "id": "G5-3-3-Human-Computer Interaction",
@@ -1321,77 +1214,41 @@
       "startMin": 765,
       "endMin": 855,
       "subject": "Human-Computer Interaction",
-      "teacher": null,
-      "room": "No room",
+      "teacher": "Benaddane Samira",
+      "room": "Online",
       "type": "TP",
       "typeRaw": "Lab (TP)",
-      "raw": "Tuesday 12:45-14:15\nHuman-Computer Interaction\nNot assigned\nNo room\nLab (TP)",
-      "warnings": [
-        "teacher not assigned in source timetable"
-      ]
+      "raw": "Tuesday 12:45-14:15\nHuman-Computer Interaction\nBenaddane Samira\nOnline\nLab (TP)",
+      "warnings": []
     },
     {
-      "id": "G5-4-0-Compiler Design",
+      "id": "G5-4-0-Human-Computer Interaction",
       "section": "L3 - SI",
       "group": "G5",
       "day": 4,
       "startMin": 480,
       "endMin": 570,
-      "subject": "Compiler Design",
-      "teacher": "Baghli Raouida",
+      "subject": "Human-Computer Interaction",
+      "teacher": "Izountar Yousra",
       "room": "Hygiene",
       "type": "LECTURE",
       "typeRaw": "Lecture (in person)",
-      "raw": "Wednesday 08:00-09:30\nCompiler Design\nBaghli Raouida\nHygiene\nLecture (in person)",
+      "raw": "Wednesday 08:00-09:30\nHuman-Computer Interaction\nIzountar Yousra\nHygiene\nLecture (in person)",
       "warnings": []
     },
     {
-      "id": "G5-4-1-Human-Computer Interaction",
+      "id": "G5-4-1-Compiler Design",
       "section": "L3 - SI",
       "group": "G5",
       "day": 4,
       "startMin": 575,
       "endMin": 665,
-      "subject": "Human-Computer Interaction",
-      "teacher": null,
-      "room": "Benbadis",
+      "subject": "Compiler Design",
+      "teacher": "Baghli Raouida",
+      "room": "ROOM COURS",
       "type": "LECTURE",
       "typeRaw": "Lecture (in person)",
-      "raw": "Wednesday 09:35-11:05\nHuman-Computer Interaction\nNot assigned\nBenbadis\nLecture (in person)",
-      "warnings": [
-        "teacher not assigned in source timetable"
-      ]
-    },
-    {
-      "id": "G5-4-2-Human-Computer Interaction",
-      "section": "L3 - SI",
-      "group": "G5",
-      "day": 4,
-      "startMin": 670,
-      "endMin": 760,
-      "subject": "Human-Computer Interaction",
-      "teacher": null,
-      "room": "ROOM 5",
-      "type": "TD",
-      "typeRaw": "Tutorial (TD)",
-      "raw": "Wednesday 11:10-12:40\nHuman-Computer Interaction\nNot assigned\nROOM 5\nTutorial (TD)",
-      "warnings": [
-        "teacher not assigned in source timetable"
-      ]
-    },
-    {
-      "id": "G5-5-0-Linear Programming",
-      "section": "L3 - SI",
-      "group": "G5",
-      "day": 5,
-      "startMin": 480,
-      "endMin": 570,
-      "subject": "Linear Programming",
-      "teacher": "Ait abdesslam Maya",
-      "room": "Benbadis",
-      "type": "LECTURE",
-      "typeRaw": "Lecture (in person)",
-      "raw": "Thursday 08:00-09:30\nLinear Programming\nAit abdesslam Maya\nBenbadis\nLecture (in person)",
+      "raw": "Wednesday 09:35-11:05\nCompiler Design\nBaghli Raouida\nROOM COURS\nLecture (in person)",
       "warnings": []
     },
     {
@@ -1407,6 +1264,21 @@
       "type": "LECTURE",
       "typeRaw": "Lecture (in person)",
       "raw": "Thursday 09:35-11:05\nSoftware Engineering\nDjaghbellou Soumia\nA\nLecture (in person)",
+      "warnings": []
+    },
+    {
+      "id": "G5-5-2-Linear Programming",
+      "section": "L3 - SI",
+      "group": "G5",
+      "day": 5,
+      "startMin": 670,
+      "endMin": 760,
+      "subject": "Linear Programming",
+      "teacher": "Ait abdesslam Maya",
+      "room": "Benbadis",
+      "type": "LECTURE",
+      "typeRaw": "Lecture (in person)",
+      "raw": "Thursday 11:10-12:40\nLinear Programming\nAit abdesslam Maya\nBenbadis\nLecture (in person)",
       "warnings": []
     },
     {
