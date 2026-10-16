@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "timetableVersion": "2026-10-16-v2",
+  "timetableVersion": "2026-10-16-v3",
   "days": [
     {
       "label": "Saturday",
@@ -1249,6 +1249,38 @@
       "warnings": []
     },
     {
+      "id": "G5-4-2-Linear Programming",
+      "section": "L3 - SI",
+      "group": "G5",
+      "day": 4,
+      "startMin": 670,
+      "endMin": 760,
+      "subject": "Linear Programming",
+      "teacher": "TAOUARI HANAA",
+      "room": "ROOM 5",
+      "type": "TD",
+      "typeRaw": "Tutorial (TD)",
+      "raw": "Wednesday 11:10-12:40\nLinear Programming\nTAOUARI HANAA\nROOM 5\nTutorial (TD)",
+      "warnings": []
+    },
+    {
+      "id": "G3-4-4-Human-Computer Interaction",
+      "section": "L3 - SI",
+      "group": "G3",
+      "day": 4,
+      "startMin": 860,
+      "endMin": 950,
+      "subject": "Human-Computer Interaction",
+      "teacher": null,
+      "room": "LAB 3",
+      "type": "TP",
+      "typeRaw": "Lab (TP)",
+      "raw": "Wednesday 14:20-15:50\nHuman-Computer Interaction\nNot assigned\nLAB 3\nLab (TP)",
+      "warnings": [
+        "teacher not assigned in source timetable"
+      ]
+    },
+    {
       "id": "L3 - ISIL-G1-0-0-Decision Support Systems",
       "section": "L3 - ISIL",
       "group": "G1",
@@ -1304,8 +1336,8 @@
       "teacher": "Ait-aoudia Amina",
       "room": "Online",
       "type": "LECTURE",
-      "typeRaw": "Lecture (online)",
-      "raw": "Monday 08:00-09:30\nInformation Systems Administration\nAit-aoudia Amina\nOnline\nLecture (online)",
+      "typeRaw": "Lecture (in person)",
+      "raw": "Monday 08:00-09:30\nInformation Systems Administration\nAit-aoudia Amina\nOnline\nLecture (in person)",
       "warnings": []
     },
     {
@@ -1321,6 +1353,21 @@
       "type": "LECTURE",
       "typeRaw": "Lecture (online)",
       "raw": "Monday 09:35-11:05\nDigital Economy and Strategic Intelligence\nChibani Rabah\nOnline\nLecture (online)",
+      "warnings": []
+    },
+    {
+      "id": "L3 - ISIL-G1-2-3-Distributed Information Systems",
+      "section": "L3 - ISIL",
+      "group": "G1",
+      "day": 2,
+      "startMin": 765,
+      "endMin": 855,
+      "subject": "Distributed Information Systems",
+      "teacher": "Korbas Fatima Zohra",
+      "room": "Online",
+      "type": "TP",
+      "typeRaw": "Lab (TP)",
+      "raw": "Monday 12:45-14:15\nDistributed Information Systems\nKorbas Fatima Zohra\nOnline\nLab (TP)",
       "warnings": []
     },
     {
@@ -1369,23 +1416,6 @@
       "warnings": []
     },
     {
-      "id": "L3 - ISIL-G1-3-3-Human-Computer Interaction",
-      "section": "L3 - ISIL",
-      "group": "G1",
-      "day": 3,
-      "startMin": 765,
-      "endMin": 855,
-      "subject": "Human-Computer Interaction",
-      "teacher": "Bellahsene Fatima",
-      "room": "X",
-      "type": "TD",
-      "typeRaw": "Tutorial (TD)",
-      "raw": "Tuesday 12:45-14:15\nHuman-Computer Interaction\nBellahsene Fatima\nX\nTutorial (TD)",
-      "warnings": [
-        "room X may be a placeholder or source-provided room label"
-      ]
-    },
-    {
       "id": "L3 - ISIL-G1-3-4-Information Systems Administration",
       "section": "L3 - ISIL",
       "group": "G1",
@@ -1401,63 +1431,50 @@
       "warnings": []
     },
     {
-      "id": "L3 - ISIL-G1-4-0-Advanced Web Programming",
+      "id": "L3 - ISIL-G1-4-1-Human-Computer Interaction",
       "section": "L3 - ISIL",
       "group": "G1",
       "day": 4,
-      "startMin": 480,
-      "endMin": 570,
+      "startMin": 575,
+      "endMin": 665,
+      "subject": "Human-Computer Interaction",
+      "teacher": "Bellahsene Fatima",
+      "room": "X",
+      "type": "TD",
+      "typeRaw": "Tutorial (TD)",
+      "raw": "Wednesday 09:35-11:05\nHuman-Computer Interaction\nBellahsene Fatima\nX\nTutorial (TD)",
+      "warnings": [
+        "room X may be a placeholder or source-provided room label"
+      ]
+    },
+    {
+      "id": "L3 - ISIL-G1-4-2-Advanced Web Programming",
+      "section": "L3 - ISIL",
+      "group": "G1",
+      "day": 4,
+      "startMin": 670,
+      "endMin": 760,
       "subject": "Advanced Web Programming",
       "teacher": "Hemili Mohamed",
       "room": "ROOM COURS",
       "type": "LECTURE",
       "typeRaw": "Lecture (in person)",
-      "raw": "Wednesday 08:00-09:30\nAdvanced Web Programming\nHemili Mohamed\nROOM COURS\nLecture (in person)",
+      "raw": "Wednesday 11:10-12:40\nAdvanced Web Programming\nHemili Mohamed\nROOM COURS\nLecture (in person)",
       "warnings": []
     },
     {
-      "id": "L3 - ISIL-G1-4-1-Advanced Web Programming",
-      "section": "L3 - ISIL",
-      "group": "G1",
-      "day": 4,
-      "startMin": 575,
-      "endMin": 665,
-      "subject": "Advanced Web Programming",
-      "teacher": "Hemili Mohamed",
-      "room": "ROOM 6",
-      "type": "TD",
-      "typeRaw": "Tutorial (TD)",
-      "raw": "Wednesday 09:35-11:05\nAdvanced Web Programming\nHemili Mohamed\nROOM 6\nTutorial (TD)",
-      "warnings": []
-    },
-    {
-      "id": "L3 - ISIL-G1-5-0-Distributed Information Systems",
+      "id": "L3 - ISIL-G1-5-0-Advanced Web Programming",
       "section": "L3 - ISIL",
       "group": "G1",
       "day": 5,
       "startMin": 480,
       "endMin": 570,
-      "subject": "Distributed Information Systems",
-      "teacher": "Korbas Fatima Zohra",
-      "room": "Online",
-      "type": "TP",
-      "typeRaw": "Lab (TP)",
-      "raw": "Thursday 08:00-09:30\nDistributed Information Systems\nKorbas Fatima Zohra\nOnline\nLab (TP)",
-      "warnings": []
-    },
-    {
-      "id": "L3 - ISIL-G1-5-1-Distributed Information Systems",
-      "section": "L3 - ISIL",
-      "group": "G1",
-      "day": 5,
-      "startMin": 575,
-      "endMin": 665,
-      "subject": "Distributed Information Systems",
-      "teacher": "Mallek Nawel",
-      "room": "ROOM 1",
+      "subject": "Advanced Web Programming",
+      "teacher": "Hemili Mohamed",
+      "room": "ROOM COURS",
       "type": "TD",
       "typeRaw": "Tutorial (TD)",
-      "raw": "Thursday 09:35-11:05\nDistributed Information Systems\nMallek Nawel\nROOM 1\nTutorial (TD)",
+      "raw": "Thursday 08:00-09:30\nAdvanced Web Programming\nHemili Mohamed\nROOM COURS\nTutorial (TD)",
       "warnings": []
     },
     {
@@ -1487,7 +1504,7 @@
       "room": "ROOM 1",
       "type": "TD",
       "typeRaw": "Tutorial (TD)",
-      "raw": "Thursday 12:45-14:15\nDistributed Information Systems\nNot assigned\nROOM 1\nTutorial (TD)",
+      "raw": "Thursday 12:45-14:15\nDistributed Information Systems\nNot assaigned\nROOM 1\nTutorial (TD)",
       "warnings": [
         "teacher not assigned in source timetable"
       ]
@@ -1523,18 +1540,18 @@
       "warnings": []
     },
     {
-      "id": "L3 - ISIL-G2-0-2-Software Engineering",
+      "id": "L3 - ISIL-G2-0-3-Software Engineering",
       "section": "L3 - ISIL",
       "group": "G2",
       "day": 0,
-      "startMin": 670,
-      "endMin": 760,
+      "startMin": 765,
+      "endMin": 855,
       "subject": "Software Engineering",
       "teacher": "Hemal Yahia",
       "room": "ROOM 6",
       "type": "TD",
       "typeRaw": "Tutorial (TD)",
-      "raw": "Saturday 11:10-12:40\nSoftware Engineering\nHemal Yahia\nROOM 6\nTutorial (TD)",
+      "raw": "Saturday 12:45-14:15\nSoftware Engineering\nHemal Yahia\nROOM 6\nTutorial (TD)",
       "warnings": []
     },
     {
@@ -1548,8 +1565,8 @@
       "teacher": "Ait-aoudia Amina",
       "room": "Online",
       "type": "LECTURE",
-      "typeRaw": "Lecture (online)",
-      "raw": "Monday 08:00-09:30\nInformation Systems Administration\nAit-aoudia Amina\nOnline\nLecture (online)",
+      "typeRaw": "Lecture (in person)",
+      "raw": "Monday 08:00-09:30\nInformation Systems Administration\nAit-aoudia Amina\nOnline\nLecture (in person)",
       "warnings": []
     },
     {
@@ -1565,6 +1582,21 @@
       "type": "LECTURE",
       "typeRaw": "Lecture (online)",
       "raw": "Monday 09:35-11:05\nDigital Economy and Strategic Intelligence\nChibani Rabah\nOnline\nLecture (online)",
+      "warnings": []
+    },
+    {
+      "id": "L3 - ISIL-G2-2-3-Distributed Information Systems",
+      "section": "L3 - ISIL",
+      "group": "G2",
+      "day": 2,
+      "startMin": 765,
+      "endMin": 855,
+      "subject": "Distributed Information Systems",
+      "teacher": "Korbas Fatima Zohra",
+      "room": "Online",
+      "type": "TP",
+      "typeRaw": "Lab (TP)",
+      "raw": "Monday 12:45-14:15\nDistributed Information Systems\nKorbas Fatima Zohra\nOnline\nLab (TP)",
       "warnings": []
     },
     {
@@ -1613,93 +1645,63 @@
       "warnings": []
     },
     {
-      "id": "L3 - ISIL-G2-3-4-Human-Computer Interaction",
+      "id": "L3 - ISIL-G2-4-0-Human-Computer Interaction",
       "section": "L3 - ISIL",
       "group": "G2",
-      "day": 3,
-      "startMin": 860,
-      "endMin": 950,
+      "day": 4,
+      "startMin": 480,
+      "endMin": 570,
       "subject": "Human-Computer Interaction",
       "teacher": "Bellahsene Fatima",
       "room": "ROOM COURS",
       "type": "TD",
       "typeRaw": "Tutorial (TD)",
-      "raw": "Tuesday 14:20-15:50\nHuman-Computer Interaction\nBellahsene Fatima\nROOM COURS\nTutorial (TD)",
+      "raw": "Wednesday 08:00-09:30\nHuman-Computer Interaction\nBellahsene Fatima\nROOM COURS\nTutorial (TD)",
       "warnings": []
     },
     {
-      "id": "L3 - ISIL-G2-4-1-Advanced Web Programming",
-      "section": "L3 - ISIL",
-      "group": "G2",
-      "day": 4,
-      "startMin": 575,
-      "endMin": 665,
-      "subject": "Advanced Web Programming",
-      "teacher": "Hemili Mohamed",
-      "room": "ROOM COURS",
-      "type": "LECTURE",
-      "typeRaw": "Lecture (in person)",
-      "raw": "Wednesday 09:35-11:05\nAdvanced Web Programming\nHemili Mohamed\nROOM COURS\nLecture (in person)",
-      "warnings": []
-    },
-    {
-      "id": "L3 - ISIL-G2-4-2-Information Systems Administration",
+      "id": "L3 - ISIL-G2-4-2-Advanced Web Programming",
       "section": "L3 - ISIL",
       "group": "G2",
       "day": 4,
       "startMin": 670,
       "endMin": 760,
+      "subject": "Advanced Web Programming",
+      "teacher": "Hemili Mohamed",
+      "room": "ROOM COURS",
+      "type": "LECTURE",
+      "typeRaw": "Lecture (in person)",
+      "raw": "Wednesday 11:10-12:40\nAdvanced Web Programming\nHemili Mohamed\nROOM COURS\nLecture (in person)",
+      "warnings": []
+    },
+    {
+      "id": "L3 - ISIL-G2-4-4-Information Systems Administration",
+      "section": "L3 - ISIL",
+      "group": "G2",
+      "day": 4,
+      "startMin": 860,
+      "endMin": 950,
       "subject": "Information Systems Administration",
       "teacher": "Ait-aoudia Amina",
       "room": "Online",
       "type": "TD",
       "typeRaw": "Tutorial (TD)",
-      "raw": "Wednesday 11:10-12:40\nInformation Systems Administration\nAit-aoudia Amina\nOnline\nTutorial (TD)",
+      "raw": "Wednesday 14:20-15:50\nInformation Systems Administration\nAit-aoudia Amina\nOnline\nTutorial (TD)",
       "warnings": []
     },
     {
-      "id": "L3 - ISIL-G2-4-3-Advanced Web Programming",
-      "section": "L3 - ISIL",
-      "group": "G2",
-      "day": 4,
-      "startMin": 765,
-      "endMin": 855,
-      "subject": "Advanced Web Programming",
-      "teacher": "Hemili Mohamed",
-      "room": "ROOM COURS",
-      "type": "TD",
-      "typeRaw": "Tutorial (TD)",
-      "raw": "Wednesday 12:45-14:15\nAdvanced Web Programming\nHemili Mohamed\nROOM COURS\nTutorial (TD)",
-      "warnings": []
-    },
-    {
-      "id": "L3 - ISIL-G2-5-0-Distributed Information Systems",
+      "id": "L3 - ISIL-G2-5-0-Advanced Web Programming",
       "section": "L3 - ISIL",
       "group": "G2",
       "day": 5,
       "startMin": 480,
       "endMin": 570,
-      "subject": "Distributed Information Systems",
-      "teacher": "Korbas Fatima Zohra",
-      "room": "Online",
-      "type": "TP",
-      "typeRaw": "Lab (TP)",
-      "raw": "Thursday 08:00-09:30\nDistributed Information Systems\nKorbas Fatima Zohra\nOnline\nLab (TP)",
-      "warnings": []
-    },
-    {
-      "id": "L3 - ISIL-G2-5-1-Distributed Information Systems",
-      "section": "L3 - ISIL",
-      "group": "G2",
-      "day": 5,
-      "startMin": 575,
-      "endMin": 665,
-      "subject": "Distributed Information Systems",
-      "teacher": "Mallek Nawel",
-      "room": "ROOM 1",
+      "subject": "Advanced Web Programming",
+      "teacher": "Hemili Mohamed",
+      "room": "ROOM COURS",
       "type": "TD",
       "typeRaw": "Tutorial (TD)",
-      "raw": "Thursday 09:35-11:05\nDistributed Information Systems\nMallek Nawel\nROOM 1\nTutorial (TD)",
+      "raw": "Thursday 08:00-09:30\nAdvanced Web Programming\nHemili Mohamed\nROOM COURS\nTutorial (TD)",
       "warnings": []
     },
     {
@@ -1729,7 +1731,7 @@
       "room": "ROOM 1",
       "type": "TD",
       "typeRaw": "Tutorial (TD)",
-      "raw": "Thursday 12:45-14:15\nDistributed Information Systems\nNot assigned\nROOM 1\nTutorial (TD)",
+      "raw": "Thursday 12:45-14:15\nDistributed Information Systems\nNot assaigned\nROOM 1\nTutorial (TD)",
       "warnings": [
         "teacher not assigned in source timetable"
       ]
@@ -1780,6 +1782,21 @@
       "warnings": []
     },
     {
+      "id": "L3 - ISIL-G3-0-4-Software Engineering",
+      "section": "L3 - ISIL",
+      "group": "G3",
+      "day": 0,
+      "startMin": 860,
+      "endMin": 950,
+      "subject": "Software Engineering",
+      "teacher": "Hemal Yahia",
+      "room": "ROOM 4",
+      "type": "TD",
+      "typeRaw": "Tutorial (TD)",
+      "raw": "Saturday 14:20-15:50\nSoftware Engineering\nHemal Yahia\nROOM 4\nTutorial (TD)",
+      "warnings": []
+    },
+    {
       "id": "L3 - ISIL-G3-2-0-Information Systems Administration",
       "section": "L3 - ISIL",
       "group": "G3",
@@ -1790,8 +1807,8 @@
       "teacher": "Ait-aoudia Amina",
       "room": "Online",
       "type": "LECTURE",
-      "typeRaw": "Lecture (online)",
-      "raw": "Monday 08:00-09:30\nInformation Systems Administration\nAit-aoudia Amina\nOnline\nLecture (online)",
+      "typeRaw": "Lecture (in person)",
+      "raw": "Monday 08:00-09:30\nInformation Systems Administration\nAit-aoudia Amina\nOnline\nLecture (in person)",
       "warnings": []
     },
     {
@@ -1807,6 +1824,21 @@
       "type": "LECTURE",
       "typeRaw": "Lecture (online)",
       "raw": "Monday 09:35-11:05\nDigital Economy and Strategic Intelligence\nChibani Rabah\nOnline\nLecture (online)",
+      "warnings": []
+    },
+    {
+      "id": "L3 - ISIL-G3-2-3-Distributed Information Systems",
+      "section": "L3 - ISIL",
+      "group": "G3",
+      "day": 2,
+      "startMin": 765,
+      "endMin": 855,
+      "subject": "Distributed Information Systems",
+      "teacher": "Korbas Fatima Zohra",
+      "room": "Online",
+      "type": "TP",
+      "typeRaw": "Lab (TP)",
+      "raw": "Monday 12:45-14:15\nDistributed Information Systems\nKorbas Fatima Zohra\nOnline\nLab (TP)",
       "warnings": []
     },
     {
@@ -1855,36 +1887,6 @@
       "warnings": []
     },
     {
-      "id": "L3 - ISIL-G3-3-4-Information Systems Administration",
-      "section": "L3 - ISIL",
-      "group": "G3",
-      "day": 3,
-      "startMin": 860,
-      "endMin": 950,
-      "subject": "Information Systems Administration",
-      "teacher": "Ait-aoudia Amina",
-      "room": "Online",
-      "type": "TD",
-      "typeRaw": "Tutorial (TD)",
-      "raw": "Tuesday 14:20-15:50\nInformation Systems Administration\nAit-aoudia Amina\nOnline\nTutorial (TD)",
-      "warnings": []
-    },
-    {
-      "id": "L3 - ISIL-G3-4-1-Advanced Web Programming",
-      "section": "L3 - ISIL",
-      "group": "G3",
-      "day": 4,
-      "startMin": 575,
-      "endMin": 665,
-      "subject": "Advanced Web Programming",
-      "teacher": "Hemili Mohamed",
-      "room": "ROOM COURS",
-      "type": "LECTURE",
-      "typeRaw": "Lecture (in person)",
-      "raw": "Wednesday 09:35-11:05\nAdvanced Web Programming\nHemili Mohamed\nROOM COURS\nLecture (in person)",
-      "warnings": []
-    },
-    {
       "id": "L3 - ISIL-G3-4-2-Advanced Web Programming",
       "section": "L3 - ISIL",
       "group": "G3",
@@ -1894,54 +1896,39 @@
       "subject": "Advanced Web Programming",
       "teacher": "Hemili Mohamed",
       "room": "ROOM COURS",
-      "type": "TD",
-      "typeRaw": "Tutorial (TD)",
-      "raw": "Wednesday 11:10-12:40\nAdvanced Web Programming\nHemili Mohamed\nROOM COURS\nTutorial (TD)",
+      "type": "LECTURE",
+      "typeRaw": "Lecture (in person)",
+      "raw": "Wednesday 11:10-12:40\nAdvanced Web Programming\nHemili Mohamed\nROOM COURS\nLecture (in person)",
       "warnings": []
     },
     {
-      "id": "L3 - ISIL-G3-4-3-Information Systems Administration",
+      "id": "L3 - ISIL-G3-4-3-Advanced Web Programming",
       "section": "L3 - ISIL",
       "group": "G3",
       "day": 4,
       "startMin": 765,
       "endMin": 855,
+      "subject": "Advanced Web Programming",
+      "teacher": "Hemili Mohamed",
+      "room": "ROOM COURS",
+      "type": "TD",
+      "typeRaw": "Tutorial (TD)",
+      "raw": "Wednesday 12:45-14:15\nAdvanced Web Programming\nHemili Mohamed\nROOM COURS\nTutorial (TD)",
+      "warnings": []
+    },
+    {
+      "id": "L3 - ISIL-G3-4-4-Information Systems Administration",
+      "section": "L3 - ISIL",
+      "group": "G3",
+      "day": 4,
+      "startMin": 860,
+      "endMin": 950,
       "subject": "Information Systems Administration",
       "teacher": "Ait-aoudia Amina",
       "room": "Online",
       "type": "TD",
       "typeRaw": "Tutorial (TD)",
-      "raw": "Wednesday 12:45-14:15\nInformation Systems Administration\nAit-aoudia Amina\nOnline\nTutorial (TD)",
-      "warnings": []
-    },
-    {
-      "id": "L3 - ISIL-G3-5-0-Distributed Information Systems",
-      "section": "L3 - ISIL",
-      "group": "G3",
-      "day": 5,
-      "startMin": 480,
-      "endMin": 570,
-      "subject": "Distributed Information Systems",
-      "teacher": "Korbas Fatima Zohra",
-      "room": "Online",
-      "type": "TP",
-      "typeRaw": "Lab (TP)",
-      "raw": "Thursday 08:00-09:30\nDistributed Information Systems\nKorbas Fatima Zohra\nOnline\nLab (TP)",
-      "warnings": []
-    },
-    {
-      "id": "L3 - ISIL-G3-5-1-Advanced Web Programming",
-      "section": "L3 - ISIL",
-      "group": "G3",
-      "day": 5,
-      "startMin": 575,
-      "endMin": 665,
-      "subject": "Advanced Web Programming",
-      "teacher": "Hemili Mohamed",
-      "room": "ROOM 3",
-      "type": "TD",
-      "typeRaw": "Tutorial (TD)",
-      "raw": "Thursday 09:35-11:05\nAdvanced Web Programming\nHemili Mohamed\nROOM 3\nTutorial (TD)",
+      "raw": "Wednesday 14:20-15:50\nInformation Systems Administration\nAit-aoudia Amina\nOnline\nTutorial (TD)",
       "warnings": []
     },
     {
@@ -1971,7 +1958,7 @@
       "room": "ROOM 3",
       "type": "TD",
       "typeRaw": "Tutorial (TD)",
-      "raw": "Thursday 12:45-14:15\nDistributed Information Systems\nNot assigned\nROOM 3\nTutorial (TD)",
+      "raw": "Thursday 12:45-14:15\nDistributed Information Systems\nNot assaigned\nROOM 3\nTutorial (TD)",
       "warnings": [
         "teacher not assigned in source timetable"
       ]
@@ -2047,8 +2034,8 @@
       "teacher": "Ait-aoudia Amina",
       "room": "Online",
       "type": "LECTURE",
-      "typeRaw": "Lecture (online)",
-      "raw": "Monday 08:00-09:30\nInformation Systems Administration\nAit-aoudia Amina\nOnline\nLecture (online)",
+      "typeRaw": "Lecture (in person)",
+      "raw": "Monday 08:00-09:30\nInformation Systems Administration\nAit-aoudia Amina\nOnline\nLecture (in person)",
       "warnings": []
     },
     {
@@ -2064,6 +2051,21 @@
       "type": "LECTURE",
       "typeRaw": "Lecture (online)",
       "raw": "Monday 09:35-11:05\nDigital Economy and Strategic Intelligence\nChibani Rabah\nOnline\nLecture (online)",
+      "warnings": []
+    },
+    {
+      "id": "L3 - ISIL-G4-2-3-Distributed Information Systems",
+      "section": "L3 - ISIL",
+      "group": "G4",
+      "day": 2,
+      "startMin": 765,
+      "endMin": 855,
+      "subject": "Distributed Information Systems",
+      "teacher": "Korbas Fatima Zohra",
+      "room": "Online",
+      "type": "TP",
+      "typeRaw": "Lab (TP)",
+      "raw": "Monday 12:45-14:15\nDistributed Information Systems\nKorbas Fatima Zohra\nOnline\nLab (TP)",
       "warnings": []
     },
     {
@@ -2097,33 +2099,18 @@
       "warnings": []
     },
     {
-      "id": "L3 - ISIL-G4-3-4-Information Systems Administration",
+      "id": "L3 - ISIL-G4-3-4-Software Engineering",
       "section": "L3 - ISIL",
       "group": "G4",
       "day": 3,
       "startMin": 860,
       "endMin": 950,
-      "subject": "Information Systems Administration",
-      "teacher": "Ait-aoudia Amina",
-      "room": "Online",
+      "subject": "Software Engineering",
+      "teacher": "Hemal Yahia",
+      "room": "ROOM 6",
       "type": "TD",
       "typeRaw": "Tutorial (TD)",
-      "raw": "Tuesday 14:20-15:50\nInformation Systems Administration\nAit-aoudia Amina\nOnline\nTutorial (TD)",
-      "warnings": []
-    },
-    {
-      "id": "L3 - ISIL-G4-4-1-Advanced Web Programming",
-      "section": "L3 - ISIL",
-      "group": "G4",
-      "day": 4,
-      "startMin": 575,
-      "endMin": 665,
-      "subject": "Advanced Web Programming",
-      "teacher": "Hemili Mohamed",
-      "room": "ROOM COURS",
-      "type": "LECTURE",
-      "typeRaw": "Lecture (in person)",
-      "raw": "Wednesday 09:35-11:05\nAdvanced Web Programming\nHemili Mohamed\nROOM COURS\nLecture (in person)",
+      "raw": "Tuesday 14:20-15:50\nSoftware Engineering\nHemal Yahia\nROOM 6\nTutorial (TD)",
       "warnings": []
     },
     {
@@ -2136,39 +2123,24 @@
       "subject": "Advanced Web Programming",
       "teacher": "Hemili Mohamed",
       "room": "ROOM COURS",
-      "type": "TD",
-      "typeRaw": "Tutorial (TD)",
-      "raw": "Wednesday 11:10-12:40\nAdvanced Web Programming\nHemili Mohamed\nROOM COURS\nTutorial (TD)",
+      "type": "LECTURE",
+      "typeRaw": "Lecture (in person)",
+      "raw": "Wednesday 11:10-12:40\nAdvanced Web Programming\nHemili Mohamed\nROOM COURS\nLecture (in person)",
       "warnings": []
     },
     {
-      "id": "L3 - ISIL-G4-5-0-Distributed Information Systems",
+      "id": "L3 - ISIL-G4-4-3-Advanced Web Programming",
       "section": "L3 - ISIL",
       "group": "G4",
-      "day": 5,
-      "startMin": 480,
-      "endMin": 570,
-      "subject": "Distributed Information Systems",
-      "teacher": "Korbas Fatima Zohra",
-      "room": "Online",
-      "type": "TP",
-      "typeRaw": "Lab (TP)",
-      "raw": "Thursday 08:00-09:30\nDistributed Information Systems\nKorbas Fatima Zohra\nOnline\nLab (TP)",
-      "warnings": []
-    },
-    {
-      "id": "L3 - ISIL-G4-5-1-Advanced Web Programming",
-      "section": "L3 - ISIL",
-      "group": "G4",
-      "day": 5,
-      "startMin": 575,
-      "endMin": 665,
+      "day": 4,
+      "startMin": 765,
+      "endMin": 855,
       "subject": "Advanced Web Programming",
       "teacher": "Hemili Mohamed",
-      "room": "ROOM 3",
+      "room": "ROOM COURS",
       "type": "TD",
       "typeRaw": "Tutorial (TD)",
-      "raw": "Thursday 09:35-11:05\nAdvanced Web Programming\nHemili Mohamed\nROOM 3\nTutorial (TD)",
+      "raw": "Wednesday 12:45-14:15\nAdvanced Web Programming\nHemili Mohamed\nROOM COURS\nTutorial (TD)",
       "warnings": []
     },
     {
@@ -2198,7 +2170,7 @@
       "room": "ROOM 3",
       "type": "TD",
       "typeRaw": "Tutorial (TD)",
-      "raw": "Thursday 12:45-14:15\nDistributed Information Systems\nNot assigned\nROOM 3\nTutorial (TD)",
+      "raw": "Thursday 12:45-14:15\nDistributed Information Systems\nNot assaigned\nROOM 3\nTutorial (TD)",
       "warnings": [
         "teacher not assigned in source timetable"
       ]
@@ -2289,8 +2261,8 @@
       "teacher": "Ait-aoudia Amina",
       "room": "Online",
       "type": "LECTURE",
-      "typeRaw": "Lecture (online)",
-      "raw": "Monday 08:00-09:30\nInformation Systems Administration\nAit-aoudia Amina\nOnline\nLecture (online)",
+      "typeRaw": "Lecture (in person)",
+      "raw": "Monday 08:00-09:30\nInformation Systems Administration\nAit-aoudia Amina\nOnline\nLecture (in person)",
       "warnings": []
     },
     {
@@ -2306,6 +2278,21 @@
       "type": "LECTURE",
       "typeRaw": "Lecture (online)",
       "raw": "Monday 09:35-11:05\nDigital Economy and Strategic Intelligence\nChibani Rabah\nOnline\nLecture (online)",
+      "warnings": []
+    },
+    {
+      "id": "L3 - ISIL-G5-2-3-Distributed Information Systems",
+      "section": "L3 - ISIL",
+      "group": "G5",
+      "day": 2,
+      "startMin": 765,
+      "endMin": 855,
+      "subject": "Distributed Information Systems",
+      "teacher": "Korbas Fatima Zohra",
+      "room": "Online",
+      "type": "TP",
+      "typeRaw": "Lab (TP)",
+      "raw": "Monday 12:45-14:15\nDistributed Information Systems\nKorbas Fatima Zohra\nOnline\nLab (TP)",
       "warnings": []
     },
     {
@@ -2378,42 +2365,10 @@
       "subject": "Advanced Web Programming",
       "teacher": "Hemili Mohamed",
       "room": "ROOM 6",
-      "type": "TD",
-      "typeRaw": "Tutorial (TD)",
-      "raw": "Wednesday 11:10-12:40\nAdvanced Web Programming\nHemili Mohamed\nROOM 6\nTutorial (TD)",
+      "type": "LECTURE",
+      "typeRaw": "Lecture (in person)",
+      "raw": "Wednesday 11:10-12:40\nAdvanced Web Programming\nHemili Mohamed\nROOM 6\nLecture (in person)",
       "warnings": []
-    },
-    {
-      "id": "G5-4-2-Linear Programming",
-      "section": "L3 - SI",
-      "group": "G5",
-      "day": 4,
-      "startMin": 670,
-      "endMin": 760,
-      "subject": "Linear Programming",
-      "teacher": "TAOUARI HANAA",
-      "room": "ROOM 5",
-      "type": "TD",
-      "typeRaw": "Tutorial (TD)",
-      "raw": "Wednesday 11:10-12:40\nLinear Programming\nTAOUARI HANAA\nROOM 5\nTutorial (TD)",
-      "warnings": []
-    },
-    {
-      "id": "G3-4-4-Human-Computer Interaction",
-      "section": "L3 - SI",
-      "group": "G3",
-      "day": 4,
-      "startMin": 860,
-      "endMin": 950,
-      "subject": "Human-Computer Interaction",
-      "teacher": null,
-      "room": "LAB 3",
-      "type": "TP",
-      "typeRaw": "Lab (TP)",
-      "raw": "Wednesday 14:20-15:50\nHuman-Computer Interaction\nNot assigned\nLAB 3\nLab (TP)",
-      "warnings": [
-        "teacher not assigned in source timetable"
-      ]
     },
     {
       "id": "L3 - ISIL-G5-4-3-Advanced Web Programming",
@@ -2428,21 +2383,6 @@
       "type": "TD",
       "typeRaw": "Tutorial (TD)",
       "raw": "Wednesday 12:45-14:15\nAdvanced Web Programming\nHemili Mohamed\nROOM COURS\nTutorial (TD)",
-      "warnings": []
-    },
-    {
-      "id": "L3 - ISIL-G5-5-0-Distributed Information Systems",
-      "section": "L3 - ISIL",
-      "group": "G5",
-      "day": 5,
-      "startMin": 480,
-      "endMin": 570,
-      "subject": "Distributed Information Systems",
-      "teacher": "Korbas Fatima Zohra",
-      "room": "Online",
-      "type": "TP",
-      "typeRaw": "Lab (TP)",
-      "raw": "Thursday 08:00-09:30\nDistributed Information Systems\nKorbas Fatima Zohra\nOnline\nLab (TP)",
       "warnings": []
     },
     {
@@ -2472,7 +2412,7 @@
       "room": "ROOM 1",
       "type": "TD",
       "typeRaw": "Tutorial (TD)",
-      "raw": "Thursday 12:45-14:15\nDistributed Information Systems\nNot assigned\nROOM 1\nTutorial (TD)",
+      "raw": "Thursday 12:45-14:15\nDistributed Information Systems\nNot assaigned\nROOM 1\nTutorial (TD)",
       "warnings": [
         "teacher not assigned in source timetable"
       ]
