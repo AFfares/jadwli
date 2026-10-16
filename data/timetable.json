@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "timetableVersion": "2026-10-08-v2",
+  "timetableVersion": "2026-10-16-v1",
   "days": [
     {
       "label": "Saturday",
@@ -273,10 +273,10 @@
       "endMin": 665,
       "subject": "Software Engineering",
       "teacher": "Djaghbellou Soumia",
-      "room": "A",
+      "room": "ROOM COURS",
       "type": "LECTURE",
       "typeRaw": "Lecture (in person)",
-      "raw": "Thursday 09:35-11:05\nSoftware Engineering\nDjaghbellou Soumia\nA\nLecture (in person)",
+      "raw": "Thursday 09:35-11:05\nSoftware Engineering\nDjaghbellou Soumia\nROOM COURS\nLecture (in person)",
       "warnings": []
     },
     {
@@ -519,10 +519,10 @@
       "endMin": 665,
       "subject": "Software Engineering",
       "teacher": "Djaghbellou Soumia",
-      "room": "A",
+      "room": "ROOM COURS",
       "type": "LECTURE",
       "typeRaw": "Lecture (in person)",
-      "raw": "Thursday 09:35-11:05\nSoftware Engineering\nDjaghbellou Soumia\nA\nLecture (in person)",
+      "raw": "Thursday 09:35-11:05\nSoftware Engineering\nDjaghbellou Soumia\nROOM COURS\nLecture (in person)",
       "warnings": []
     },
     {
@@ -618,21 +618,6 @@
       "warnings": [
         "teacher not assigned in source timetable"
       ]
-    },
-    {
-      "id": "G3-1-1-Human-Computer Interaction",
-      "section": "L3 - SI",
-      "group": "G3",
-      "day": 1,
-      "startMin": 575,
-      "endMin": 665,
-      "subject": "Human-Computer Interaction",
-      "teacher": "Charef Aya",
-      "room": "LAB 3",
-      "type": "TD",
-      "typeRaw": "Tutorial (TD)",
-      "raw": "Sunday 09:35-11:05\nHuman-Computer Interaction\nCharef Aya\nLAB 3\nTutorial (TD)",
-      "warnings": []
     },
     {
       "id": "G3-1-2-Probability and Statistics",
@@ -763,10 +748,10 @@
       "endMin": 665,
       "subject": "Software Engineering",
       "teacher": "Djaghbellou Soumia",
-      "room": "A",
+      "room": "ROOM COURS",
       "type": "LECTURE",
       "typeRaw": "Lecture (in person)",
-      "raw": "Thursday 09:35-11:05\nSoftware Engineering\nDjaghbellou Soumia\nA\nLecture (in person)",
+      "raw": "Thursday 09:35-11:05\nSoftware Engineering\nDjaghbellou Soumia\nROOM COURS\nLecture (in person)",
       "warnings": []
     },
     {
@@ -963,11 +948,11 @@
       "startMin": 670,
       "endMin": 760,
       "subject": "Linear Programming",
-      "teacher": null,
+      "teacher": "TAOUARI HANAA",
       "room": "ROOM 5",
       "type": "TD",
       "typeRaw": "Tutorial (TD)",
-      "raw": "Wednesday 11:10-12:40\nLinear Programming\nNot assigned\nROOM 5\nTutorial (TD)",
+      "raw": "Wednesday 11:10-12:40\nLinear Programming\nTAOUARI HANAA\nROOM 5\nTutorial (TD)",
       "warnings": [
         "teacher not assigned in source timetable"
       ]
@@ -996,10 +981,10 @@
       "endMin": 665,
       "subject": "Software Engineering",
       "teacher": "Djaghbellou Soumia",
-      "room": "A",
+      "room": "ROOM COURS",
       "type": "LECTURE",
       "typeRaw": "Lecture (in person)",
-      "raw": "Thursday 09:35-11:05\nSoftware Engineering\nDjaghbellou Soumia\nA\nLecture (in person)",
+      "raw": "Thursday 09:35-11:05\nSoftware Engineering\nDjaghbellou Soumia\nROOM COURS\nLecture (in person)",
       "warnings": []
     },
     {
@@ -1031,24 +1016,6 @@
       "typeRaw": "Tutorial (TD)",
       "raw": "Thursday 12:45-14:15\nSoftware Engineering\nDjaghbellou Soumia\nROOM 1\nTutorial (TD)",
       "warnings": []
-    },
-    {
-      "id": "G5-0-0-Linear Programming",
-      "section": "L3 - SI",
-      "group": "G5",
-      "day": 0,
-      "startMin": 480,
-      "endMin": 570,
-      "subject": "Linear Programming",
-      "teacher": null,
-      "room": "X",
-      "type": "TD",
-      "typeRaw": "Tutorial (TD)",
-      "raw": "Saturday 08:00-09:30\nLinear Programming\nNot assigned\nX\nTutorial (TD)",
-      "warnings": [
-        "teacher not assigned in source timetable",
-        "room X may be a placeholder or source-provided room label"
-      ]
     },
     {
       "id": "G5-0-1-Operating Systems 2",
@@ -1260,10 +1227,10 @@
       "endMin": 665,
       "subject": "Software Engineering",
       "teacher": "Djaghbellou Soumia",
-      "room": "A",
+      "room": "ROOM COURS",
       "type": "LECTURE",
       "typeRaw": "Lecture (in person)",
-      "raw": "Thursday 09:35-11:05\nSoftware Engineering\nDjaghbellou Soumia\nA\nLecture (in person)",
+      "raw": "Thursday 09:35-11:05\nSoftware Engineering\nDjaghbellou Soumia\nROOM COURS\nLecture (in person)",
       "warnings": []
     },
     {
@@ -2407,6 +2374,38 @@
       "typeRaw": "Tutorial (TD)",
       "raw": "Thursday 14:20-15:50\nDistributed Information Systems\nMallek Nawel\nROOM 1\nTutorial (TD)",
       "warnings": []
+    },
+    {
+      "id": "G5-4-2-Linear Programming",
+      "section": "L3 - SI",
+      "group": "G5",
+      "day": 4,
+      "startMin": 670,
+      "endMin": 760,
+      "subject": "Linear Programming",
+      "teacher": "TAOUARI HANAA",
+      "room": "ROOM 5",
+      "type": "TD",
+      "typeRaw": "Tutorial (TD)",
+      "raw": "Wednesday 11:10-12:40\nLinear Programming\nTAOUARI HANAA\nROOM 5\nTutorial (TD)",
+      "warnings": []
+    },
+    {
+      "id": "G3-4-4-Human-Computer Interaction",
+      "section": "L3 - SI",
+      "group": "G3",
+      "day": 4,
+      "startMin": 860,
+      "endMin": 950,
+      "subject": "Human-Computer Interaction",
+      "teacher": null,
+      "room": "LAB 3",
+      "type": "TP",
+      "typeRaw": "Lab (TP)",
+      "raw": "Wednesday 14:20-15:50\nHuman-Computer Interaction\nNot assigned\nLAB 3\nLab (TP)",
+      "warnings": [
+        "teacher not assigned in source timetable"
+      ]
     }
   ]
 }
