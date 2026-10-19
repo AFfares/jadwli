@@ -1,7 +1,6 @@
 import { File, Paths } from 'expo-file-system';
 import { REMOTE_TIMETABLE_URL } from './timetableConfig';
 import {
-    CURRENT_TIMETABLE_VERSION,
     getLocalTimetable,
     TIMETABLE_DAYS,
     TIMETABLE_SLOTS,
@@ -26,11 +25,25 @@ function asTimetable(value) {
     };
 }
 
-async function readCachedTimetable() {
+function timetableContent(value) {
+    return JSON.stringify({
+        version: value.version ?? value.timetableVersion,
+        entries: value.entries,
+        days: value.days,
+        slots: value.slots,
+    });
+}
+
+function isApplicableUpdate(remote, current) {
+    const comparison = compareVersions(remote.timetableVersion, current.version);
+    return comparison > 0 || (comparison === 0 && timetableContent(remote) !== timetableContent(current));
+}
+
+async function readCachedTimetable(bundled) {
     try {
         if (!CACHE_FILE.exists) return null;
         const cached = JSON.parse(await CACHE_FILE.text());
-        if (!validateTimetable(cached) || compareVersions(cached.timetableVersion, CURRENT_TIMETABLE_VERSION) <= 0) return null;
+        if (!validateTimetable(cached) || !isApplicableUpdate(cached, bundled)) return null;
         return asTimetable(cached);
     } catch {
         return null;
@@ -44,7 +57,7 @@ async function saveTimetable(value) {
 
 export async function initializeTimetable() {
     const bundled = getLocalTimetable();
-    const cached = await readCachedTimetable();
+    const cached = await readCachedTimetable(bundled);
     return cached || {
         ...bundled,
         days: TIMETABLE_DAYS,
@@ -59,7 +72,7 @@ export async function checkForTimetableUpdate(current) {
         const response = await fetch(REMOTE_TIMETABLE_URL, { signal: controller.signal });
         if (!response.ok) return null;
         const remote = await response.json();
-        if (!validateTimetable(remote) || compareVersions(remote.timetableVersion, current.version) <= 0) return null;
+        if (!validateTimetable(remote) || !isApplicableUpdate(remote, current)) return null;
         await saveTimetable(remote);
         return asTimetable(remote);
     } catch {
