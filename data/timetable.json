@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "timetableVersion": "2026-10-19-v1",
+  "timetableVersion": "2026-10-19-v2",
   "days": [
     {
       "label": "Saturday",
@@ -1275,7 +1275,7 @@
       "room": "LAB 3",
       "type": "TD",
       "typeRaw": "Tutorial (TD)",
-      "raw": "Wednesday 14:20-15:50\nHuman-Computer Interaction\nNot assigned\nLAB 3\nLab (TP)",
+      "raw": "Wednesday 14:20-15:50\nHuman-Computer Interaction\nNot assigned\nLAB 3\nTutorial (TD)",
       "warnings": [
         "teacher not assigned in source timetable"
       ]
