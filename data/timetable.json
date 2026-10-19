@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "timetableVersion": "2026-10-16-v3",
+  "timetableVersion": "2026-10-19-v1",
   "days": [
     {
       "label": "Saturday",
@@ -1273,8 +1273,8 @@
       "subject": "Human-Computer Interaction",
       "teacher": null,
       "room": "LAB 3",
-      "type": "TP",
-      "typeRaw": "Lab (TP)",
+      "type": "TD",
+      "typeRaw": "Tutorial (TD)",
       "raw": "Wednesday 14:20-15:50\nHuman-Computer Interaction\nNot assigned\nLAB 3\nLab (TP)",
       "warnings": [
         "teacher not assigned in source timetable"
